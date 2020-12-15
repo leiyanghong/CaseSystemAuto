@@ -1,0 +1,41 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN10-20201020H",
+    "children" : [ {
+      "name" : "18000-MainThread",
+      "children" : [ {
+        "name" : "test_CaseReport",
+        "uid" : "5dcad5de78a49d86",
+        "parentUid" : "529aa99449c2e676207ff2f9f61093cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607325848370,
+          "stop" : 1607325892914,
+          "duration" : 44544
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "529aa99449c2e676207ff2f9f61093cd"
+    }, {
+      "name" : "19508-MainThread",
+      "children" : [ {
+        "name" : "test_CaseReport",
+        "uid" : "ef32027e21b6cd9b",
+        "parentUid" : "17dc192be727c2b0dd11b786680d4b67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607326189405,
+          "stop" : 1607326235058,
+          "duration" : 45653
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17dc192be727c2b0dd11b786680d4b67"
+    } ],
+    "uid" : "adcb78885cc3583d210159e39d9449a1"
+  } ]
+}

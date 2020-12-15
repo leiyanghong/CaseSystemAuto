@@ -1,0 +1,41 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case.demo",
+    "children" : [ {
+      "name" : "test_demo_7",
+      "children" : [ {
+        "name" : "test_CaseReport",
+        "uid" : "5dcad5de78a49d86",
+        "parentUid" : "aeed3ba8f55f9fa557a58c664a0c5eae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607325848370,
+          "stop" : 1607325892914,
+          "duration" : 44544
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aeed3ba8f55f9fa557a58c664a0c5eae"
+    }, {
+      "name" : "test_for_disposal_6",
+      "children" : [ {
+        "name" : "test_CaseReport",
+        "uid" : "ef32027e21b6cd9b",
+        "parentUid" : "d9d4b6c9cb9f2484a4098e8b46dd0375",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607326189405,
+          "stop" : 1607326235058,
+          "duration" : 45653
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9d4b6c9cb9f2484a4098e8b46dd0375"
+    } ],
+    "uid" : "test_case.demo"
+  } ]
+}

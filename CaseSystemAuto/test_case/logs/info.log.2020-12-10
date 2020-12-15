@@ -1,0 +1,653 @@
+2020-12-09 17:11:16,168 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-09 17:11:16,172 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-09 17:11:16,915 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-09 17:11:16,958 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="ef32076b-2e62-4bf6-af38-0905c1811dee")> 中输入： jdadmin 
+2020-12-09 17:11:17,436 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-09 17:11:17,468 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="b9ea392c-5156-4ac6-9b75-a3c31225a0b1")> 中输入： 123456 
+2020-12-09 17:11:17,896 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-09 17:11:17,921 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="888e7066-6deb-403b-940e-d4b0cad7d1ed")> 
+2020-12-09 17:11:18,520 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-09 17:11:21,145 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="20930401-2303-4c73-915e-d35f9fccd3e0")> 
+2020-12-09 17:11:21,714 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-09 17:11:22,411 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="b8455fb8-ad41-46c0-9dc3-01928d5e189f")> 中输入： 废弃车辆 
+2020-12-09 17:11:22,902 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-09 17:11:23,247 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="a98f8959-4f38-4ce1-a156-482789155a74")> 
+2020-12-09 17:11:24,215 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-09 17:11:24,255 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="66f43ebd-493e-4fe1-b8c9-c7f1b533970d")> 
+2020-12-09 17:11:24,899 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:11:25,468 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="15b9c810-07f7-43ec-a525-2e3e8190c68d")> 
+2020-12-09 17:11:26,111 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-09 17:11:26,142 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="b469d330-ea8e-4ac5-b116-6264cd7268b4")> 中输入： 案件描述YCadbgHdAu 
+2020-12-09 17:11:27,179 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-09 17:11:27,205 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="86b226ab-103d-41c9-b3b3-f9e960af93d3")> 
+2020-12-09 17:11:27,832 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:11:27,880 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="c10f400a-d103-40f7-9eaf-c4213d0b792e")> 
+2020-12-09 17:11:28,677 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-09 17:11:28,707 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="3d6422f3-0591-4b9b-b407-406f3d202bcd")> 
+2020-12-09 17:11:29,388 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:11:29,412 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="ebec3a44-0366-4ae2-9aaf-9fae24043e57")> 
+2020-12-09 17:11:29,996 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-09 17:11:30,026 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="58ecb3c0-628c-4e88-8b24-e589bca4e24d")> 
+2020-12-09 17:11:30,624 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:11:31,203 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="10c7e319-95df-4254-afe5-87fd5ec771dd")> 
+2020-12-09 17:11:31,851 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-09 17:11:31,889 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="47ba09d0-676c-431f-81b7-1930107fb804")> 中输入： 上海市浦东新区明月峡大厦100号1708室 
+2020-12-09 17:11:32,816 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-09 17:11:32,840 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="ed1f1bea-2eeb-4df2-ac61-8f87881b4d63")> 
+2020-12-09 17:11:33,467 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-09 17:11:33,503 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="2c70b1c140ffc00fd7fc4b39a1e405c8", element="6e1c2a6c-44c3-407b-8da0-0ed685778b71")> 
+2020-12-09 17:15:50,806 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-09 17:15:50,808 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-09 17:15:51,300 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-09 17:15:51,338 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="3a6fc42a-0bc1-446f-9255-0da4b4091443")> 中输入： jdadmin 
+2020-12-09 17:15:51,754 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-09 17:15:51,782 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="749171da-9b62-45eb-8828-866f49205eae")> 中输入： 123456 
+2020-12-09 17:15:52,191 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-09 17:15:52,217 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="101ea7b2-2f4c-476d-9f30-3bf5b499c2e8")> 
+2020-12-09 17:15:52,813 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-09 17:15:55,087 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="3b97a2dc-45c4-4342-aef1-17816afb14cd")> 
+2020-12-09 17:15:55,666 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-09 17:15:56,280 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="406790c3-ca58-42dd-9599-f25492287bc8")> 中输入： 废弃车辆 
+2020-12-09 17:15:56,777 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-09 17:15:57,117 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="c6b37123-2459-4088-88c5-2539ec1199c5")> 
+2020-12-09 17:15:57,966 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-09 17:15:58,018 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="b875c891-3468-4f5a-b65d-1a5ffdfc3b98")> 
+2020-12-09 17:15:58,691 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:15:59,233 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="c7974a63-19b7-4427-bb1e-15db3d7484bf")> 
+2020-12-09 17:15:59,872 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-09 17:15:59,909 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="3e09b321-8091-4215-8e09-737491b667b1")> 中输入： 案件描述hyvykPANih 
+2020-12-09 17:16:00,766 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-09 17:16:00,792 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="9d61b9d7-ae60-498a-8210-710deb389680")> 
+2020-12-09 17:16:01,399 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:16:01,939 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="e9fc8ae7-9464-42ae-ad3e-e55de0b823bb")> 
+2020-12-09 17:16:02,556 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-09 17:16:02,587 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="e27df5d8-0881-49be-ae84-5cb52d0774f2")> 
+2020-12-09 17:16:03,242 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:16:03,269 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="512cccbc-87b7-460e-b89b-c940a329b1bc")> 
+2020-12-09 17:16:03,869 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-09 17:16:03,901 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="643c3287-18f2-4cd1-965b-41a5fe27c894")> 
+2020-12-09 17:16:04,487 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-09 17:16:05,056 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="2fe2487f-27c3-4cb0-84a0-7326e1d43a12")> 
+2020-12-09 17:16:05,682 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-09 17:16:05,715 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="bde49c46-09b8-48ff-b745-6d6d5028a012")> 中输入： 上海市普陀区大尧二路32号305室 
+2020-12-09 17:16:06,569 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-09 17:16:06,597 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="82b07e6b-8815-4ff5-8b3b-4468ec997558")> 
+2020-12-09 17:16:07,180 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-09 17:16:07,216 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="6f8f7246-66eb-48fb-aee8-8a18fab6d1cb")> 
+2020-12-09 17:16:11,490 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'否')] 
+2020-12-09 17:16:11,530 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="f0eedc77-b1c0-4f73-a1a1-b2d2701d49e1")> 
+2020-12-09 17:16:12,534 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-09 17:16:12,566 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="de736d07-b097-4d3f-a345-a25bddc9c1d5")> 
+2020-12-09 17:16:13,151 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'受理')])[last()] 
+2020-12-09 17:16:13,185 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="a3c4a7aa-364c-45f7-bcdd-9fca865fa907")> 
+2020-12-09 17:16:13,847 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'直接立案')]/preceding-sibling::span/span 
+2020-12-09 17:16:13,884 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="0dcc150c-979e-4e3f-8e4c-00ad8a7c6c3d")> 
+2020-12-09 17:16:14,532 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'受理并立案')])[1] 
+2020-12-09 17:16:14,560 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="cb1e4141-ce79-4198-b541-9a9b3cd996f1")> 
+2020-12-09 17:16:16,789 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-09 17:16:16,846 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="7173d756-2322-4c3f-bda7-1c75d57005eb")> 
+2020-12-09 17:16:18,068 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-09 17:16:18,109 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="e78ffe55-3df6-4c22-b608-37ce29021805")> 
+2020-12-09 17:16:19,141 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-09 17:16:19,185 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="4fcd986a-4dbc-44b4-a41c-a9f06a7c40c3")>  的展示文本为:  2012091801000005 
+2020-12-09 17:16:19,185 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-09 17:16:19,213 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="7cd17e50-2060-4dbb-b42c-e9ad948c7f65")> 
+2020-12-09 17:16:19,778 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'向上派遣')])[last()] 
+2020-12-09 17:16:19,833 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="f81b35d7-749f-41ac-b2a5-ae0a6d0c98e9")> 
+2020-12-09 17:16:20,466 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-09 17:16:20,554 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="35c069d8-fd3e-48c1-954c-c62b6b6915a2")> 
+2020-12-09 17:16:21,741 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-09 17:16:21,787 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-09 17:16:21,809 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="6334105e-5d28-4bfd-ab4b-951872f34ef0")> 中输入： qjadmin 
+2020-12-09 17:16:22,199 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-09 17:16:22,221 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="b0879f88-9f04-45e3-9517-9087100c552e")> 中输入： 123456 
+2020-12-09 17:16:22,654 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-09 17:16:22,677 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="79468288-6328-43e0-8ac7-a86806e74c0b")> 
+2020-12-09 17:16:23,277 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-09 17:16:25,528 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="86fa8883-d07d-44e4-a58a-f2f87a555642")> 
+2020-12-09 17:16:26,720 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-09 17:16:26,762 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="b74dc198-b376-4c7e-81d6-932adec2d312")> 
+2020-12-09 17:16:28,471 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="520fd543-b20d-4083-85be-7804c4490dfd")>, <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="7b41b090-6793-4b0c-9046-36e280c09f4b")>, <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="b1d8040e-03a0-42d4-8840-66968291bd3e")>, <selenium.webdriver.remote.webelement.WebElement (session="001e244f0d19fb3c61284e6ed8194661", element="dbe31b35-82ce-42f6-9cfc-3b300705dd2e")>]  的展示文本为:  ['2012091801000005', '2012091801000003', '2012091801000002', '2012091801000001'] 
+2020-12-10 15:25:33,235 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 15:25:33,244 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 15:25:33,940 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 15:25:33,979 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="29c2bc66-f6ee-473e-ad2c-ab6a1309bd15")> 中输入： jdadmin 
+2020-12-10 15:25:34,453 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 15:25:34,483 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="c73d2617-f17f-4031-b62f-ac6687d15a25")> 中输入： 123456 
+2020-12-10 15:25:34,946 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 15:25:34,970 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="a554af8e-4c54-45d8-96ab-ca89a66c218c")> 
+2020-12-10 15:25:35,576 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-10 15:25:38,104 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="9aedf5a6-538f-4676-94c7-2f4b043b2b4c")> 
+2020-12-10 15:25:38,705 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-10 15:25:39,489 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="06c07aef-87c1-426c-aaef-c1be45c03f10")> 中输入： 废弃车辆 
+2020-12-10 15:25:40,022 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-10 15:25:40,355 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="065c4b07-35d6-495c-a0e8-6cc44573785a")> 
+2020-12-10 15:25:41,179 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-10 15:25:41,221 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="719d70e3-55ba-43a7-9ff3-d19d3b2f85dd")> 
+2020-12-10 15:25:41,854 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:25:41,901 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="7a3500a2-df3a-400e-828e-a212f9f2643a")> 
+2020-12-10 15:25:42,512 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-10 15:25:42,548 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="f8f47895-3119-49d8-a0d1-ff5f282e6c65")> 中输入： 案件描述sJgCYZBjSV 
+2020-12-10 15:25:43,687 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-10 15:25:43,714 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="b814667a-e3f1-498f-969b-43035b9f87d2")> 
+2020-12-10 15:25:44,316 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:25:44,339 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="68c723ad-268c-44d7-a278-1e71e436110e")> 
+2020-12-10 15:25:45,042 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-10 15:25:45,081 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="4f655e4b-bfd9-4d95-aeaa-e826d64ac719")> 
+2020-12-10 15:25:45,769 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:25:45,792 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="e114b7b4-1d4f-4703-b349-9d13afa003ab")> 
+2020-12-10 15:25:46,363 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-10 15:25:46,389 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="810fb0f8-cb24-42a9-a1d3-0b38ce7b6752")> 
+2020-12-10 15:25:46,991 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:25:47,018 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="4a46aa36-5fd4-4557-b8f4-d6e584b7a4bd")> 
+2020-12-10 15:25:47,669 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-10 15:25:47,714 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="6283ba35-a5c9-4386-ad1b-942eb1916efc")> 中输入： 上海市静安区石村广场102号2007室 
+2020-12-10 15:25:48,566 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-10 15:25:48,590 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="e8bf001f-8fb1-4232-a01a-a4f3d40d9438")> 
+2020-12-10 15:25:49,204 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-10 15:25:49,234 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="379cba2d-7ea9-41d9-8914-6254ed53fd24")> 
+2020-12-10 15:25:53,537 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'否')] 
+2020-12-10 15:25:53,569 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="30cd5126-393e-44f2-9183-6b5a2e237618")> 
+2020-12-10 15:25:54,675 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-10 15:25:54,719 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="3270770b-c4cf-4f90-8e54-1ee6fac13992")>  的展示文本为:  2012101801000006 
+2020-12-10 15:25:54,719 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 15:25:54,746 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="8c1a27a0-d7c2-479b-aa0b-435e07463a71")> 
+2020-12-10 15:25:55,298 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'指定核实人')])[last()] 
+2020-12-10 15:25:55,335 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="84d7ede2-c591-4f3d-9ed0-be377492d36c")> 
+2020-12-10 15:25:56,080 - tools.report.log_tool - INFO - 定位元素 (//div[contains(text(),'人员：')]/following-sibling::div/div/input)[1] 
+2020-12-10 15:25:56,167 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="5e54966f-f7a5-462f-8af0-02f3f1795fce")> 中输入： 雷阳洪 
+2020-12-10 15:25:56,684 - tools.report.log_tool - INFO - 定位元素 (//i[@class="el-icon-search"])[last()] 
+2020-12-10 15:25:56,709 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="8fbaaca5-0cd7-431e-a994-d1210fa628d1")> 
+2020-12-10 15:25:57,345 - tools.report.log_tool - INFO - 定位元素 //div[@class="el-table__fixed-body-wrapper"]/table/tbody/tr[1]/td[1]/div/label/span[1]/span 
+2020-12-10 15:25:57,380 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="6e2a71fa-c2aa-4f10-866f-c3489eeb461c")> 
+2020-12-10 15:25:57,975 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 15:25:58,011 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="0059a354-2dda-4b77-a7f1-771ec72f9d18")> 
+2020-12-10 15:25:58,679 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 15:25:58,717 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="10a3b232-0d62-41c1-b6ad-d1a077fa80b1")> 
+2020-12-10 15:26:00,293 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 15:26:00,340 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 15:26:00,361 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="8a2dbe65-8bef-41be-9296-d2ed7f409e26")> 中输入： leiyanghong 
+2020-12-10 15:26:00,784 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 15:26:00,807 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="5bcb321e-96de-432f-9547-dd09bf176145")> 中输入： 123456 
+2020-12-10 15:26:01,234 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 15:26:01,259 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="273068d3-1c76-43c3-99aa-5fd9097a2541")> 
+2020-12-10 15:26:03,398 - tools.report.log_tool - INFO - 定位元素 //*[@id="app"]/section/div/div[2]/div/ul/li[2]/div/span 
+2020-12-10 15:26:03,456 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="f9a38507-1864-4c5f-985a-d2c9d64df8c7")> 
+2020-12-10 15:26:04,676 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'核实列表')])[1] 
+2020-12-10 15:26:04,722 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="f6ded919-972d-4ee6-86f2-a243525d22c8")> 
+2020-12-10 15:26:05,649 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="3df9476b-da85-4641-b8c4-74aa37b384f1")>, <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="dce17d2c-2f6a-4654-a52e-325f0bed3e1d")>]  的展示文本为:  ['2012101801000006', '2012101801000001'] 
+2020-12-10 15:26:05,649 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 15:26:05,672 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="b1b9f6d8-eccc-4a1a-86cb-441208787a18")> 
+2020-12-10 15:26:06,213 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'核实')])[last()] 
+2020-12-10 15:26:06,243 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="f410c6f73a68db655f0853bad41b1081", element="210192f4-afcb-4008-855c-da10c9804c82")> 
+2020-12-10 15:27:43,165 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 15:27:43,167 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 15:27:43,581 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 15:27:43,621 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="cb5c10d1-b967-48f6-b256-32f4788c2564")> 中输入： jdadmin 
+2020-12-10 15:27:44,043 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 15:27:44,076 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="78e4788f-c796-4786-a0f7-1eeb14527f8b")> 中输入： 123456 
+2020-12-10 15:27:44,529 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 15:27:44,553 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="e90f51e7-cdd8-487c-a385-a83c7a81c65c")> 
+2020-12-10 15:27:45,139 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-10 15:27:47,840 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="a6020b50-df14-49d2-bd9d-73bcb4bfb423")> 
+2020-12-10 15:27:48,412 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-10 15:27:49,076 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="1480c089-885d-49fd-9eb5-ee33e12caeec")> 中输入： 废弃车辆 
+2020-12-10 15:27:49,573 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-10 15:27:49,910 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="9508f936-e9b9-435a-802c-7ec55e53d771")> 
+2020-12-10 15:27:50,897 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-10 15:27:50,940 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="8a2f7a91-07ff-4fce-9f53-51b861abd345")> 
+2020-12-10 15:27:51,588 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:27:51,620 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="d118455e-1ec0-4e4a-bea6-9f98405e57e6")> 
+2020-12-10 15:27:52,251 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-10 15:27:52,285 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="df9067a5-64ed-41e1-9cda-57b526f60b62")> 中输入： 案件描述hvIkmiHEII 
+2020-12-10 15:27:53,304 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-10 15:27:53,336 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="2e4e78a0-1acc-4ee2-b277-cd3ded8e0968")> 
+2020-12-10 15:27:53,953 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:27:53,974 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="1a3b3492-5974-47bc-a6d6-c19cca183203")> 
+2020-12-10 15:27:54,576 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-10 15:27:54,611 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="76b27dd2-eda3-4614-960d-c1325ead117e")> 
+2020-12-10 15:27:55,288 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:27:55,309 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="18f650ce-f022-440a-98f5-8c8cd77603f6")> 
+2020-12-10 15:27:55,882 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-10 15:27:55,914 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="57a224cb-5733-4865-b133-01df31bd8646")> 
+2020-12-10 15:27:56,510 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:27:56,536 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="4368e548-2a5c-4dc1-9419-f13412bccd4a")> 
+2020-12-10 15:27:57,182 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-10 15:27:57,219 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="76cf5b31-a393-4471-a3b2-4b31f679af90")> 中输入： 上海市奉贤区新泰大厦108号420室 
+2020-12-10 15:27:58,082 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-10 15:27:58,105 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="b18798d6-ce9b-4703-bf86-b3046f868e0f")> 
+2020-12-10 15:27:58,718 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-10 15:27:58,749 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="fae15136d888dffde6d39702b2650f5a", element="162d3a31-7a5d-45ff-a181-7cd9ace2b120")> 
+2020-12-10 15:34:42,901 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 15:34:42,903 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 15:34:43,433 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 15:34:43,486 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="db033350-c9e8-44e8-a25c-145ecaf47980")> 中输入： jdadmin 
+2020-12-10 15:34:43,916 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 15:34:43,944 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="25162118-7e45-4fb6-b373-9a6e6a1bd610")> 中输入： 123456 
+2020-12-10 15:34:44,338 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 15:34:44,362 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="f5ba5fa1-ebc7-4ca0-8ff6-9fadcd06c93a")> 
+2020-12-10 15:34:44,901 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-10 15:34:47,628 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="574d38d0-2862-4cf9-bd4f-cd7141437de3")> 
+2020-12-10 15:34:48,153 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-10 15:34:48,833 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="2cc0d06a-4467-4bba-a83d-61b2dc29b40e")> 中输入： 废弃车辆 
+2020-12-10 15:34:49,320 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-10 15:34:49,690 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="bfe85901-16a0-4f5c-b0d4-088acfecec00")> 
+2020-12-10 15:34:50,784 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-10 15:34:50,811 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="b01ca106-9ed7-40ad-8972-a85a1c2538ca")> 
+2020-12-10 15:34:51,429 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:34:51,467 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="20bc12a1-b412-4df0-aa76-f18dd7ff806d")> 
+2020-12-10 15:34:52,105 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-10 15:34:52,138 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="dea40541-9abf-4900-b353-4a77dd8942f7")> 中输入： 案件描述WaPRgFDKhc 
+2020-12-10 15:34:53,007 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-10 15:34:53,031 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="187db1f8-a372-4880-bdaa-700a0ea6e37e")> 
+2020-12-10 15:34:53,645 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:34:54,195 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="12f2ef91-ac04-4188-9266-57e70928955e")> 
+2020-12-10 15:34:54,773 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-10 15:34:54,803 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="c412c7e0-8e18-4407-89a6-eef57d560550")> 
+2020-12-10 15:34:55,483 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:34:56,053 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="ebe2b9cd-efd0-444e-bec7-0a981957c25d")> 
+2020-12-10 15:34:56,645 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-10 15:34:56,677 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="80a8bedb-6d16-46ce-b996-f5c92d8d4f8e")> 
+2020-12-10 15:34:57,299 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 15:34:57,327 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="04b96495-57e7-481c-a501-7b7cf2dac74e")> 
+2020-12-10 15:34:57,986 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-10 15:34:58,022 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="5f2b31ac-a3f2-42ff-80b2-69dc2bdf8b83")> 中输入： 上海市闸北区龙羊峡路28号2009室 
+2020-12-10 15:34:58,854 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-10 15:34:58,878 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="b691581e-9463-4e2f-8724-907da52efb8e")> 
+2020-12-10 15:34:59,495 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-10 15:34:59,525 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="a3408c3a-2e77-4b9e-98fe-cffa183d0638")> 
+2020-12-10 15:35:00,124 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'否')] 
+2020-12-10 15:35:04,256 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="e4a0be8e-e02a-4114-9a26-d0ecde7e690d")> 
+2020-12-10 15:35:05,450 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-10 15:35:05,495 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="92507e02-a969-436d-92ca-476d77f25c89")>  的展示文本为:  2012101801000009 
+2020-12-10 15:35:05,495 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 15:35:05,520 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="43cb0e88-ecfd-4783-9245-4428e3a11570")> 
+2020-12-10 15:35:06,098 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'指定核实人')])[last()] 
+2020-12-10 15:35:06,142 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="82e59ff2-505e-448a-be92-2775dbc19e42")> 
+2020-12-10 15:35:06,918 - tools.report.log_tool - INFO - 定位元素 (//div[contains(text(),'人员：')]/following-sibling::div/div/input)[1] 
+2020-12-10 15:35:07,010 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="2b34fe9e-e791-47d2-8633-cbe042a25052")> 中输入： 雷阳洪 
+2020-12-10 15:35:07,543 - tools.report.log_tool - INFO - 定位元素 (//i[@class="el-icon-search"])[last()] 
+2020-12-10 15:35:07,569 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="1a517b8d-d7d3-4ecd-bfaf-ac006269c73a")> 
+2020-12-10 15:35:08,184 - tools.report.log_tool - INFO - 定位元素 //div[@class="el-table__fixed-body-wrapper"]/table/tbody/tr[1]/td[1]/div/label/span[1]/span 
+2020-12-10 15:35:08,220 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="7307465e-fec1-4cb9-ae49-883d7cf9ea03")> 
+2020-12-10 15:35:08,818 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 15:35:08,852 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="66a551c6-dc21-4e75-a81e-7730cda587e3")> 
+2020-12-10 15:35:09,456 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 15:35:09,485 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="2d73a0ae-0def-4008-a698-a2e250df42ca")> 
+2020-12-10 15:35:11,096 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 15:35:11,174 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 15:35:11,196 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="564a4643-6efe-4b36-9e4c-e8d9d7803866")> 中输入： leiyanghong 
+2020-12-10 15:35:11,623 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 15:35:11,641 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="dfb750a5-9907-4501-9d3a-e5c1c8471636")> 中输入： 123456 
+2020-12-10 15:35:12,083 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 15:35:12,104 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="030c0e8a-f556-4e64-8ee4-89f45b1277d1")> 
+2020-12-10 15:35:14,649 - tools.report.log_tool - INFO - 定位元素 //*[@id="app"]/section/div/div[2]/div/ul/li[2]/div/span 
+2020-12-10 15:35:14,683 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="c4bfb1eb-4644-4094-a282-dd2c675fc905")> 
+2020-12-10 15:35:16,001 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'核实列表')])[1] 
+2020-12-10 15:35:16,044 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="5cf6565d-05b7-468e-9ead-fda6ef9e9997")> 
+2020-12-10 15:35:17,023 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="b6e9a1f4-bf31-4268-b407-393463e5481b")>, <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="fe6e1dc7-bb5e-413c-b1ee-6312ccae8c23")>, <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="85412e82-2bb5-4a2e-b474-bca273ddf4e7")>]  的展示文本为:  ['2012101801000009', '2012101801000006', '2012101801000001'] 
+2020-12-10 15:35:17,024 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 15:35:17,044 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="7c692590-f3b5-41a0-9b61-321c15e9fc41")> 
+2020-12-10 15:35:17,600 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'核实')])[last()] 
+2020-12-10 15:35:17,638 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="593fb2f6-59e7-4a1e-967b-3e6bd5a1f84d")> 
+2020-12-10 15:35:18,964 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'核实通过')])[1] 
+2020-12-10 15:35:18,994 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="604a1b76-7e26-4b16-8e28-5930e7e0edb3")> 
+2020-12-10 15:35:19,597 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确定')])[1] 
+2020-12-10 15:35:19,634 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="450f35d7-c6b7-479a-832e-127d0fdd9006")> 
+2020-12-10 15:35:21,605 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 15:35:21,663 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 15:35:21,681 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="57462a41-62a7-405b-8ff0-00879bb98e9b")> 中输入： jdadmin 
+2020-12-10 15:35:22,087 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 15:35:22,110 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="14b6bb08-49e4-4616-b251-6cc0c1da4181")> 中输入： 123456 
+2020-12-10 15:35:22,554 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 15:35:22,573 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="ec6eec32-78fb-4f4d-a461-5c5875337bb3")> 
+2020-12-10 15:35:25,162 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="a2890a7a-dd32-4437-a387-addecb5630c6")>, <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="0e379dfb-64a0-43f5-b4a7-385cb1b2dbf9")>, <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="0a546c76-7e79-4ca0-9d73-a1d217ac43ff")>, <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="c4398bbd-d70a-4ad6-9fa1-1b7456ffb196")>, <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="0f361eea-8372-4814-8ccf-7d45d20ba306")>, <selenium.webdriver.remote.webelement.WebElement (session="04fb09bb272edcf5cce4f6ede5b9fe43", element="4afb1d59-abc0-4b8c-b25e-02b6e1afaff2")>]  的展示文本为:  ['2012101801000009', '2012101801000008', '2012101801000007', '2012101801000005', '2012101801000003', '2012091801000004'] 
+2020-12-10 16:32:38,005 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 16:32:38,007 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 16:32:38,424 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 16:32:38,463 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="2c4afcab-6f30-4219-8e90-d50e322b0910")> 中输入： jdadmin 
+2020-12-10 16:32:38,914 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 16:32:38,942 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="193f5ffe-ab12-453a-8086-e16bdbed5c3d")> 中输入： 123456 
+2020-12-10 16:32:39,364 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 16:32:39,392 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="4d33031a-185c-4c1c-850c-55d14931b8f5")> 
+2020-12-10 16:32:40,010 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-10 16:32:42,779 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="52e77b40-461d-4025-b96d-bcb92421644d")> 
+2020-12-10 16:32:43,321 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-10 16:32:44,021 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="cadaa97d-a725-4098-9329-a0c88b7951c3")> 中输入： 废弃车辆 
+2020-12-10 16:32:44,499 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-10 16:32:44,845 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="41f0da88-9e45-46da-9c92-4fb074f0fb47")> 
+2020-12-10 16:32:45,725 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-10 16:32:45,768 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="94f22889-285c-44d8-988f-d6e2bd79cd80")> 
+2020-12-10 16:32:46,451 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 16:32:47,002 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="77ff26b3-3a64-4994-87c3-879a88c2c805")> 
+2020-12-10 16:32:47,683 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-10 16:32:47,723 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="728834ec-0f2b-4e12-8bd8-799b49283e9c")> 中输入： 案件描述QvvxJSLcrn 
+2020-12-10 16:32:48,686 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-10 16:32:48,717 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="df6edfc4-cd60-4af9-9c65-667e17561935")> 
+2020-12-10 16:32:49,322 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 16:32:49,899 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="716a6ef5-ef8e-4807-b54a-d9e633c452b2")> 
+2020-12-10 16:32:50,499 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-10 16:32:50,531 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="507a6f3d-a084-4ccb-9400-c795f60f0f36")> 
+2020-12-10 16:32:51,223 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 16:32:51,771 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="a1b82897-b4dc-43ce-be09-a10041ac9aba")> 
+2020-12-10 16:32:52,370 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-10 16:32:52,399 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="7d7ae4bb-4ab0-44f5-a213-57e4bfe9da65")> 
+2020-12-10 16:32:53,001 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 16:32:53,023 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="2ae1ba73-717e-444c-adc9-f7bbb242759e")> 
+2020-12-10 16:32:53,665 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-10 16:32:53,696 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="225c4b2f-e64e-4e01-904a-62558bd0355d")> 中输入： 上海市奉贤区逍遥一街97号1517室 
+2020-12-10 16:32:54,505 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-10 16:32:54,530 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="e813d835-bdef-4978-af8b-5c957ae0af21")> 
+2020-12-10 16:32:55,147 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-10 16:32:55,173 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="1caf3b3d-41e4-4731-97b3-fa72ec2e5e43")> 
+2020-12-10 16:32:55,775 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'否')] 
+2020-12-10 16:32:59,425 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="e878f50c-46c2-4c77-af4e-70c3d9365f76")> 
+2020-12-10 16:33:00,685 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 16:33:00,712 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="8a6f01a2-dad0-42da-bb7f-601adfdbb6c5")> 
+2020-12-10 16:33:01,275 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'受理')])[last()] 
+2020-12-10 16:33:01,316 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="4564dd4f-f0ff-406b-a1f2-4bf873e05a0f")> 
+2020-12-10 16:33:01,975 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'直接立案')]/preceding-sibling::span/span 
+2020-12-10 16:33:02,026 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="198a0b9f-4030-478b-b3a2-10bf578af645")> 
+2020-12-10 16:33:02,652 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'受理并立案')])[1] 
+2020-12-10 16:33:02,679 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="beb75e00-52f4-4735-b46e-70342f910549")> 
+2020-12-10 16:33:05,041 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-10 16:33:05,076 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="bfadeec4-07c3-4448-8f06-a9f0923d1dd4")> 
+2020-12-10 16:33:06,276 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-10 16:33:06,328 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="fdc87b6f-7d6c-4180-99ec-c1ec57671823")> 
+2020-12-10 16:33:07,467 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-10 16:33:07,512 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="80d4bf55-60a3-49b4-8206-1eb66afc774f")>  的展示文本为:  2012101801000010 
+2020-12-10 16:33:07,512 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 16:33:07,532 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="e80c58d5-9e0f-43d1-b4e6-556c714c7b52")> 
+2020-12-10 16:33:08,086 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'向下派遣')])[last()] 
+2020-12-10 16:33:08,129 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="a37f5ad9-5b1b-478e-b7c3-99ce19f60184")> 
+2020-12-10 16:33:08,752 - tools.report.log_tool - INFO - 定位元素 (//div[contains(text(),'部门：')]/following-sibling::div/div/input)[1] 
+2020-12-10 16:33:09,118 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="1fc98f01-1dbb-4d67-a50b-1f8bf45bc755")> 中输入： 网格中心 
+2020-12-10 16:33:09,708 - tools.report.log_tool - INFO - 定位元素 (//i[@class="el-icon-search"])[last()] 
+2020-12-10 16:33:09,729 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="3e7328d7-78d5-4d05-9122-db7e3af12cfa")> 
+2020-12-10 16:33:10,384 - tools.report.log_tool - INFO - 定位元素 //div[@class="el-table__fixed-body-wrapper"]/table/tbody/tr[1]/td[1]/div/label/span[1]/span 
+2020-12-10 16:33:10,437 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="49728999-0e65-4144-b90c-c1fceb64f131")> 
+2020-12-10 16:33:11,031 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 16:33:11,071 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="64d5c6f5-3307-4080-a239-17acf0005d6e")> 
+2020-12-10 16:33:12,463 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'管控')])[1] 
+2020-12-10 16:33:12,483 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="35ff48d6-73d1-43fe-ad1c-2ef8959389ce")> 
+2020-12-10 16:33:14,377 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="894ad6a7-6d5a-4ae3-8a96-ab6a22e23f40")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="2c56fc6a-dac2-477f-b764-12da17eb70e5")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="ecfa49ad-1d42-49ac-afec-e2d2d6279ebc")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="ef112284-deb6-4d04-815a-16b02a5c5dba")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="be7fb0fa-2d6c-41de-815c-3a8ce6b8945b")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="2145196e-46ba-4538-a088-ce2599749e48")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="b8b7b84f-8853-4f99-983b-e47d231b817e")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="dadafd96-018f-421f-9a0c-38912585f91f")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="e225cc0b-3325-4092-958a-c7245960ddb6")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="7c6f9bdb-a640-4efc-8721-e1491cc07881")>]  的展示文本为:  ['2012101801000010', '2012071801000001', '2012101801000002', '2012091801000005', '2012091801000003', '2012091801000002', '2012091801000001', '2011211801000005', '2011241801000012', '2011241801000003'] 
+2020-12-10 16:33:14,377 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-10 16:33:14,409 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="894ad6a7-6d5a-4ae3-8a96-ab6a22e23f40")>  的展示文本为:  2012101801000010 
+2020-12-10 16:33:14,409 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 16:33:14,429 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="e016849e-51ca-40e4-89bb-1db631d20738")> 
+2020-12-10 16:33:14,995 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'收回重派')])[last()] 
+2020-12-10 16:33:15,033 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="113d6563-10bd-40fd-9f92-46e953108581")> 
+2020-12-10 16:33:15,652 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 16:33:15,676 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="551e9dbe-f2be-4892-bdaf-5a2decdc449e")> 
+2020-12-10 16:33:17,461 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'再派遣')]) 
+2020-12-10 16:33:17,488 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="f2974db4-aab9-4c33-81ff-16f35568bb71")> 
+2020-12-10 16:33:18,812 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="e7704768-93d7-407c-b442-00e834a60f62")>, <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="a875df31-b46e-4e87-a076-d7b00ec73a7c")>]  的展示文本为:  ['2012101801000010', '2012041801000001'] 
+2020-12-10 16:33:18,821 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 16:33:18,841 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="b7a0ae7e-3b9d-42d0-aa8d-27ac11f53557")> 
+2020-12-10 16:33:19,380 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'向上派遣')])[last()] 
+2020-12-10 16:33:19,416 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="8a0fbfde-2075-4d3f-8d48-36ae6d39158e")> 
+2020-12-10 16:33:20,002 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 16:33:20,107 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="8871ab2c-3672-4b58-b9c1-20ea212511c6")> 
+2020-12-10 16:33:21,889 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 16:33:21,947 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 16:33:21,974 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="f21991e4-8523-48f5-9e1f-d258e37aaae5")> 中输入： qjadmin 
+2020-12-10 16:33:22,391 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 16:33:22,414 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="18561715-743f-4a43-a339-51b471377945")> 中输入： 123456 
+2020-12-10 16:33:22,824 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 16:33:22,847 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="ac8e2911048d4fd5789b5f2caa034b08", element="54ac42b2-01c0-4bdf-a7b4-02691c0ee2b3")> 
+2020-12-10 16:34:48,905 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 16:34:48,906 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 16:34:49,417 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 16:34:49,466 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="b637964c-8a15-4fd8-a03c-c6a0f0e306ad")> 中输入： qjadmin 
+2020-12-10 16:34:49,870 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 16:34:49,898 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="dcfab9b9-c885-49f7-954b-bfb4eb8244f3")> 中输入： 123456 
+2020-12-10 16:34:50,298 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 16:34:50,321 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="96696e06-e13e-4074-a2be-0e874789f940")> 
+2020-12-10 16:34:53,390 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-10 16:34:53,415 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="34d073aa-aa2a-4eb0-9f1d-18c3cefc3c4d")> 
+2020-12-10 16:34:54,583 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-10 16:34:54,631 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="730296f4-e3e4-4505-9643-21b012cf3369")> 
+2020-12-10 16:34:56,316 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="119ff925-9eaf-46c2-a2a5-8929d43bc5e8")>, <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="c03dbb95-5981-417d-9451-395b65d76d6e")>, <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="7aa19dfd-128f-4206-ad0c-59f9d82161c3")>, <selenium.webdriver.remote.webelement.WebElement (session="d095fd926b42af462a7eb9c89e6006d0", element="859b46c2-10fb-43b6-8b0f-a8fe70b89994")>]  的展示文本为:  ['2012091801000005', '2012091801000003', '2012091801000002', '2012091801000001'] 
+2020-12-10 16:36:22,894 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 16:36:22,895 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 16:36:23,438 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 16:36:23,480 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="83f7cea9-bb88-4228-b2af-5904c0c96ab0")> 中输入： qjadmin 
+2020-12-10 16:36:23,895 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 16:36:23,923 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="8fcf8188-262a-4bbb-951e-5f23cdc21a43")> 中输入： 123456 
+2020-12-10 16:36:24,315 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 16:36:24,340 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="e938d7e7-2053-4e2a-808d-5c2b94586a44")> 
+2020-12-10 16:36:27,666 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-10 16:36:27,691 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="35bbd2d7-8ad6-450f-b664-6e7740144db7")> 
+2020-12-10 16:36:28,845 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-10 16:36:28,873 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="585a01c1-3f5e-40ab-affc-cce443e71ddf")> 
+2020-12-10 16:36:30,584 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="8c9f8e57-59b4-47da-8d1c-5118c7b6b7a2")>, <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="e013753b-06b2-40af-adde-020cef570950")>, <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="3f4d5f8c-250f-4dce-8214-30415b4a4811")>, <selenium.webdriver.remote.webelement.WebElement (session="b715d20705902079203f096db045be43", element="9dd98e27-65b5-4a30-9c01-118a74dccee3")>]  的展示文本为:  ['2012091801000005', '2012091801000003', '2012091801000002', '2012091801000001'] 
+2020-12-10 18:06:14,128 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 18:06:14,131 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 18:06:14,624 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 18:06:14,666 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="2e6e19a6-3a6c-435d-b548-5e8c7fe50c88")> 中输入： jdadmin 
+2020-12-10 18:06:15,097 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 18:06:15,123 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="b881140c-5874-4f36-81aa-da5742011629")> 中输入： 123456 
+2020-12-10 18:06:15,531 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 18:06:15,555 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="192ee977-ebd0-4749-b332-a7a6c784040f")> 
+2020-12-10 18:06:16,108 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-10 18:06:18,724 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="c436a6e8-d0d0-4341-b30c-b770d3c4b27d")> 
+2020-12-10 18:06:19,484 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-10 18:06:20,196 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="10dfa2d1-7f1a-4fa1-8794-42710c29b786")> 中输入： 废弃车辆 
+2020-12-10 18:06:20,705 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-10 18:06:21,034 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="a7338cbd-6fd0-4d72-bdbe-e17ce9e59ef3")> 
+2020-12-10 18:06:21,829 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-10 18:06:21,869 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="5869cbea-2a7e-431d-8ba9-f379392a3d90")> 
+2020-12-10 18:06:22,581 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:06:22,612 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="90af5cf0-0dd0-44b2-b012-2b3dc2c65abb")> 
+2020-12-10 18:06:23,210 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-10 18:06:23,237 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="99c3fb8d-0133-4db1-b5be-8f26892c5113")> 中输入： 案件描述sbywcsgXIi 
+2020-12-10 18:06:24,219 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-10 18:06:24,247 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="9438d712-ee7e-4d85-8a10-b4cf77eb4a41")> 
+2020-12-10 18:06:24,838 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:06:24,870 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="c928c796-a657-4f95-88a5-e6dc086e9c61")> 
+2020-12-10 18:06:25,485 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-10 18:06:25,520 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="95aaca8f-335e-41d7-91d0-f7ef8eb2ff17")> 
+2020-12-10 18:06:26,220 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:06:26,250 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="e70a676d-4339-45b4-bd50-b4ea521455bb")> 
+2020-12-10 18:06:26,819 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-10 18:06:26,849 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="61fbad0e-1c7d-4270-a579-577f5e213a30")> 
+2020-12-10 18:06:27,450 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:06:28,012 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="1887a723-5a97-4c18-bf3d-4c357c142b88")> 
+2020-12-10 18:06:28,661 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-10 18:06:28,698 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="639985d4-c39f-4ddf-8fd6-1753ca0abd57")> 中输入： 上海市长宁区明月峡大厦139号1601室 
+2020-12-10 18:06:29,612 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-10 18:06:29,635 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="1b683f79-4b1b-40f5-8e6c-8aa62d8a69ff")> 
+2020-12-10 18:06:30,244 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-10 18:06:30,272 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="4216dd4c-b1dc-4c3f-b238-b03d031748d9")> 
+2020-12-10 18:06:30,856 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'否')] 
+2020-12-10 18:06:34,485 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="95dfe998-7f8a-43a3-9592-1c761c160ce3")> 
+2020-12-10 18:06:35,727 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 18:06:35,751 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="e5ddc186-d650-4449-ab05-ed834f80b3aa")> 
+2020-12-10 18:06:36,343 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'受理')])[last()] 
+2020-12-10 18:06:36,378 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="69e00e7b-3fb9-49cd-8239-ca2c24bd5bcc")> 
+2020-12-10 18:06:37,050 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'直接立案')]/preceding-sibling::span/span 
+2020-12-10 18:06:37,098 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="f7c00521-45f3-49ce-ab15-5b1ca6e7fe97")> 
+2020-12-10 18:06:37,733 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'受理并立案')])[1] 
+2020-12-10 18:06:37,762 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="e38adea7-1da0-487d-836c-2e599942328a")> 
+2020-12-10 18:06:39,872 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-10 18:06:39,909 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="f9b826e2-8cf9-4194-bb45-95b5fa339e12")> 
+2020-12-10 18:06:41,101 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-10 18:06:41,143 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="6f7f1d05-89cc-49c9-a54e-6b336213dec6")> 
+2020-12-10 18:06:42,215 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-10 18:06:42,264 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="082d8366-7970-4080-a952-f6ec9dbaa8ef")>  的展示文本为:  2012101801000011 
+2020-12-10 18:06:42,264 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 18:06:42,288 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="a017d597-5b66-424a-90a8-927843a0af4a")> 
+2020-12-10 18:06:42,869 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'向上派遣')])[last()] 
+2020-12-10 18:06:42,909 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0b93665250139bacb3db0bba10cab5de", element="3677f4e6-cbae-4370-86af-2444e25a5ffa")> 
+2020-12-10 18:06:43,520 - tools.report.log_tool - INFO - 定位元素 (//div[contains(text(),'部门：')]/following-sibling::div/div/input)[1] 
+2020-12-10 18:06:54,106 - tools.report.log_tool - ERROR - (//div[contains(text(),'部门：')]/following-sibling::div/div/input)[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-10 18:08:30,040 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 18:08:30,041 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 18:08:30,721 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 18:08:30,758 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="8a17eb7f-c63a-4b6f-a07b-63f0277637ca")> 中输入： jdadmin 
+2020-12-10 18:08:31,185 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 18:08:31,216 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="3a075bdc-93a3-4615-853d-6413764920c2")> 中输入： 123456 
+2020-12-10 18:08:31,629 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 18:08:31,656 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="48775b9a-383a-4211-affb-ce45addfa534")> 
+2020-12-10 18:08:32,265 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-10 18:08:35,321 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="7152aac2-0e9a-41d9-a89b-024bcff075e6")> 
+2020-12-10 18:08:36,095 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-10 18:08:36,740 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="e7ec96d4-b193-404d-9a00-95b886a08a4b")> 中输入： 废弃车辆 
+2020-12-10 18:08:37,251 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-10 18:08:37,578 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="f39d5973-6c3c-461d-a287-f1dc8bfc7380")> 
+2020-12-10 18:08:38,367 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-10 18:08:38,419 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="1bbeb19d-c350-4b5d-b64a-4ec8a2fe90f4")> 
+2020-12-10 18:08:39,181 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:08:39,236 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="878a96b6-a6bc-4122-a359-ce1d5f324ec0")> 
+2020-12-10 18:08:39,839 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-10 18:08:39,880 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="6e52672b-59cb-4806-a10a-24d8c8c49fac")> 中输入： 案件描述PVzoblHjty 
+2020-12-10 18:08:41,023 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-10 18:08:41,053 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="bb36e330-a2f1-46c7-bdd6-143e8b5ca365")> 
+2020-12-10 18:08:41,652 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:08:42,204 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="6fc5b3e6-ed19-4335-a025-4f46f89da92d")> 
+2020-12-10 18:08:42,813 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-10 18:08:42,844 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="cc143945-d3a7-469a-9b03-2f1d1c6cbcaa")> 
+2020-12-10 18:08:43,588 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:08:43,613 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="d75534ec-4d2a-4d9c-8ea8-4ac5936b5641")> 
+2020-12-10 18:08:44,188 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-10 18:08:44,221 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="38a9f162-a626-4059-9ec1-5938c5ba724c")> 
+2020-12-10 18:08:44,850 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:08:45,413 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="d69ad4bf-1709-4e19-9e38-c69a4fe7c294")> 
+2020-12-10 18:08:46,059 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-10 18:08:46,093 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="42bdfda5-2694-4df7-bf50-4d709a2f4d3a")> 中输入： 上海市闸北区秋阳路73号2015室 
+2020-12-10 18:08:46,885 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-10 18:08:46,911 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="67fdb0cc-9fde-4fe1-a8cc-18cf6fec4ba4")> 
+2020-12-10 18:08:47,508 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-10 18:08:47,535 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="e3088434-55d1-4e3b-9989-55239f6d8f95")> 
+2020-12-10 18:08:48,129 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'否')] 
+2020-12-10 18:08:51,851 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="c1f9880b-e2d9-4e33-872f-7a15ed95e55f")> 
+2020-12-10 18:08:53,044 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 18:08:53,067 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="d8542632-d5f3-4a74-bd15-9fb24dee3852")> 
+2020-12-10 18:08:53,623 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'受理')])[last()] 
+2020-12-10 18:08:54,210 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="7f1abec6-1719-4ef5-9b5b-7ea864fea2a0")> 
+2020-12-10 18:08:54,934 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'直接立案')]/preceding-sibling::span/span 
+2020-12-10 18:08:54,980 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="4f74a1da-cf01-43df-a6a7-63c8f6534daf")> 
+2020-12-10 18:08:55,594 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'受理并立案')])[1] 
+2020-12-10 18:08:55,622 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="f2aced44-afc9-4df8-8e50-bb021298c798")> 
+2020-12-10 18:08:57,828 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-10 18:08:57,863 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="fafe4bbe-7cb5-44a4-af5a-9a0b4b8dac8c")> 
+2020-12-10 18:08:59,047 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-10 18:08:59,084 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="381ff121-9389-4aff-a574-14d2056c17a9")> 
+2020-12-10 18:09:00,304 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-10 18:09:00,350 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="88d66ac2-675f-4ae6-aeb3-1832aff463e8")>  的展示文本为:  2012101801000012 
+2020-12-10 18:09:00,350 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 18:09:00,374 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="00d9597c-5752-44d0-97d1-21cd4e36d5c7")> 
+2020-12-10 18:09:00,921 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'向上派遣')])[last()] 
+2020-12-10 18:09:00,963 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="088febe1-9943-4424-8b31-e4871750ce5c")> 
+2020-12-10 18:09:01,593 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 18:09:01,720 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="26bfd33a87f261327f4142d42e91000e", element="95c94659-89a3-42f9-91e8-c4a2e53a1632")> 
+2020-12-10 18:09:02,265 - tools.report.log_tool - INFO - 定位元素 (//div[contains(text(),'部门：')]/following-sibling::div/div/input)[1] 
+2020-12-10 18:09:12,787 - tools.report.log_tool - ERROR - (//div[contains(text(),'部门：')]/following-sibling::div/div/input)[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-10 18:12:00,512 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 18:12:00,514 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 18:12:00,970 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 18:12:01,012 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="23c10b13-a7b4-45d0-9978-71089506860c")> 中输入： jdadmin 
+2020-12-10 18:12:01,416 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 18:12:01,447 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="39125679-104c-4966-8582-21f9e5b1cbec")> 中输入： 123456 
+2020-12-10 18:12:01,841 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 18:12:01,865 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="f3354227-d3aa-43b0-bc67-aee92a958d94")> 
+2020-12-10 18:12:02,410 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'案件上报')] 
+2020-12-10 18:12:05,332 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="c407ab29-b1f7-4b21-9c18-85023e6eef9c")> 
+2020-12-10 18:12:05,866 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件分类')]/../div/div/div/input 
+2020-12-10 18:12:06,571 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="d008920f-a145-4756-8223-9edc2b7ac7f3")> 中输入： 废弃车辆 
+2020-12-10 18:12:07,078 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')] 
+2020-12-10 18:12:07,395 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="26c1643e-5db6-4754-a666-ef26868c42ee")> 
+2020-12-10 18:12:08,015 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件名称')]/../div/div/div/input 
+2020-12-10 18:12:08,041 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="7d47cc05-54e0-499a-86a1-b632ed21e4b0")> 
+2020-12-10 18:12:08,740 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:12:08,777 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="3d04e360-dc43-4155-9863-70e9f39024e4")> 
+2020-12-10 18:12:09,376 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件描述')]/../div/div/textarea 
+2020-12-10 18:12:09,405 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="182d07fd-d6f2-4b8c-b9a0-f4c3ca6e9f28")> 中输入： 案件描述cZYZyJfHoM 
+2020-12-10 18:12:10,362 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'案件来源')]/../div/div/div/input 
+2020-12-10 18:12:10,399 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="a6008d8a-9c40-4b81-a679-95e8dcb1daa9")> 
+2020-12-10 18:12:11,008 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:12:11,036 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="1537100f-cf54-404e-8f0c-897d3cbc7497")> 
+2020-12-10 18:12:11,640 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'街镇')]/../div/div/div/input 
+2020-12-10 18:12:11,676 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="d93ee0ea-8b09-46c4-b41a-c84784d4d1ef")> 
+2020-12-10 18:12:12,357 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:12:12,925 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="61904bd5-4f1b-41c1-a028-2da4e8f1d7ad")> 
+2020-12-10 18:12:13,507 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'所属网格')]/../div/div/div/input 
+2020-12-10 18:12:13,539 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="17388468-1aa3-4f4e-8d72-29f805293723")> 
+2020-12-10 18:12:14,158 - tools.report.log_tool - INFO - 定位元素 ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1] 
+2020-12-10 18:12:14,184 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="85e4f3f2-bf66-4ddb-a43e-144765d2357f")> 
+2020-12-10 18:12:14,816 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'详细地址')]/../div/div/input 
+2020-12-10 18:12:14,850 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="0868a155-21c2-496f-bc3d-92adb5bd0885")> 中输入： 上海市嘉定区恒山路36号1515室 
+2020-12-10 18:12:15,753 - tools.report.log_tool - INFO - 定位元素 (//button[@class="el-button el-button--primary el-button--small"])[last()]/span 
+2020-12-10 18:12:15,780 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="671c8767-7143-49d7-91c2-a5ba97b8a4b9")> 
+2020-12-10 18:12:16,379 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'确 定')] 
+2020-12-10 18:12:16,406 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="96c5d7ee-241f-4aec-8750-5ac1f0aad442")> 
+2020-12-10 18:12:17,005 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'否')] 
+2020-12-10 18:12:20,681 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="623b8d69-2c91-40cc-b7ae-81dc2c7aedeb")> 
+2020-12-10 18:12:21,901 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 18:12:21,925 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="c9cad7be-6570-4007-a8fa-a21969517b94")> 
+2020-12-10 18:12:22,491 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'受理')])[last()] 
+2020-12-10 18:12:22,532 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="70ddcf40-8f52-4ebf-b973-f9241f04f2d3")> 
+2020-12-10 18:12:23,247 - tools.report.log_tool - INFO - 定位元素 //span[contains(text(),'直接立案')]/preceding-sibling::span/span 
+2020-12-10 18:12:23,288 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="72375809-8f9c-402d-9262-ab0f8414b2a6")> 
+2020-12-10 18:12:23,871 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'受理并立案')])[1] 
+2020-12-10 18:12:23,905 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="100f3c84-a428-4e17-a236-62f2b7b3f378")> 
+2020-12-10 18:12:25,949 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-10 18:12:25,990 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="a17a205f-9f15-4042-ab9d-807368cd06ac")> 
+2020-12-10 18:12:27,147 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-10 18:12:27,186 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="9e84b9d5-293a-4e19-a7d4-c9aa5294a790")> 
+2020-12-10 18:12:28,430 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件编号')])[2]/span 
+2020-12-10 18:12:28,476 - tools.report.log_tool - INFO - 获取元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="823daf80-a664-4844-9ff7-d1221befd9dd")>  的展示文本为:  2012101801000013 
+2020-12-10 18:12:28,476 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 18:12:28,500 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="8fd9fa1c-4b65-4c71-8627-5d49349e6fe7")> 
+2020-12-10 18:12:29,092 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'向上派遣')])[last()] 
+2020-12-10 18:12:29,141 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="4f904403-4ff7-49ab-abec-06a600313d08")> 
+2020-12-10 18:12:29,768 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 18:12:29,877 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="d46dcbb5-c205-4459-b84b-fcbe83231c37")> 
+2020-12-10 18:12:31,642 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 18:12:31,705 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 18:12:31,725 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="52287e24-8a2e-46ca-ad70-5390bafd524a")> 中输入： qjadmin 
+2020-12-10 18:12:32,103 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 18:12:32,125 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="9d5cbece-43e2-4e4e-a9f0-e7c92bdf0994")> 中输入： 123456 
+2020-12-10 18:12:32,543 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 18:12:32,567 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="15a3ed30-abb8-4a9a-bae1-f7f7315943ab")> 
+2020-12-10 18:12:35,624 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'案件派遣')])[1] 
+2020-12-10 18:12:35,645 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="b508c32c-960e-42a9-a416-e01bb0887bf9")> 
+2020-12-10 18:12:36,809 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'待派遣')])[1] 
+2020-12-10 18:12:36,840 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="c8bde229-b66d-49f8-ba6f-15879c1a4f24")> 
+2020-12-10 18:12:38,762 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="b3467282-fe65-4639-8221-de2bfff6e7cc")>, <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="a5739d3f-06bf-4c50-9854-af82052b7783")>, <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="b7430c0b-92a0-43ed-96bd-6c601713c10b")>, <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="bd14fe1e-3e27-4950-a5dc-e23eb4d21ca6")>, <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="3b30d578-89e1-4a3e-bba6-e15358bb24d6")>, <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="908fec9e-5817-4fff-8a8c-b34106273151")>]  的展示文本为:  ['2012101801000013', '2012101801000012', '2012091801000005', '2012091801000003', '2012091801000002', '2012091801000001'] 
+2020-12-10 18:12:38,763 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'更多操作')])[1] 
+2020-12-10 18:12:38,813 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="df843b7a-7de7-409b-8940-ee07a559a459")> 
+2020-12-10 18:12:39,376 - tools.report.log_tool - INFO - 定位元素 (//li[contains(text(),'指派处置人')])[last()] 
+2020-12-10 18:12:39,422 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="7153e5f0-3619-43a8-b983-b963b66bc263")> 
+2020-12-10 18:12:40,077 - tools.report.log_tool - INFO - 定位元素 (//div[contains(text(),'人员：')]/following-sibling::div/div/input)[1] 
+2020-12-10 18:12:40,290 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="c92cf17a-6ae9-464d-94ca-b4f6d5fc6aaa")> 中输入： 区部门管理员 
+2020-12-10 18:12:40,778 - tools.report.log_tool - INFO - 定位元素 (//i[@class="el-icon-search"])[last()] 
+2020-12-10 18:12:40,806 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="48f8884e-5af1-4c2c-9c55-58c10f37b973")> 
+2020-12-10 18:12:41,410 - tools.report.log_tool - INFO - 定位元素 //div[@class="el-table__fixed-body-wrapper"]/table/tbody/tr[1]/td[1]/div/label/span[1]/span 
+2020-12-10 18:12:41,444 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="c7bb17d6-0eec-4769-a425-6cfb19589b70")> 
+2020-12-10 18:12:42,089 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 18:12:42,121 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="f9645dca-f0cc-40e3-af46-e38b7845a748")> 
+2020-12-10 18:12:42,825 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'确 定')])[last()] 
+2020-12-10 18:12:42,864 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="296a29c2-8ccc-4759-88da-272759e18a07")> 
+2020-12-10 18:12:45,179 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 18:12:45,269 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 18:12:45,289 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="36799427-050d-450f-9df6-df00dd4da9ee")> 中输入： qubumen_leiyh 
+2020-12-10 18:12:45,743 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 18:12:45,762 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="a7a74c72-5716-4cc5-8f09-999e465659fd")> 中输入： 123456 
+2020-12-10 18:12:46,202 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 18:12:46,221 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="2a13f988-a201-47ee-be8d-1c05a227fff6")> 
+2020-12-10 18:12:48,408 - tools.report.log_tool - INFO - 定位元素 //*[@id="app"]/section/div/div[2]/div/ul/li[2]/div/span 
+2020-12-10 18:12:48,439 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="0045a50bac07d3bd04aad0452e56e074", element="e57479d6-7d6e-4111-94a3-0e79be82fb60")> 
+2020-12-10 18:16:28,388 - tools.report.log_tool - INFO - -------测试开始，启动chrome浏览器成功------- 
+2020-12-10 18:16:28,389 - tools.report.log_tool - INFO - 打开网址： http://172.16.25.52/web/#/login 
+2020-12-10 18:16:28,854 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+2020-12-10 18:16:28,891 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="9e6748a95ffa00ed007f9520cbeff3fd", element="07555716-70a2-4664-8ad8-4890bace1011")> 中输入： qubumen_leiyh 
+2020-12-10 18:16:29,337 - tools.report.log_tool - INFO - 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+2020-12-10 18:16:29,374 - tools.report.log_tool - INFO - <selenium.webdriver.remote.webelement.WebElement (session="9e6748a95ffa00ed007f9520cbeff3fd", element="74beb767-d4d4-49b9-bb80-11d6e6dd56d2")> 中输入： 123456 
+2020-12-10 18:16:29,775 - tools.report.log_tool - INFO - 定位元素 //button/span 
+2020-12-10 18:16:29,798 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="9e6748a95ffa00ed007f9520cbeff3fd", element="0bc33bdd-de6f-4156-8229-b660e3e8e651")> 
+2020-12-10 18:16:32,467 - tools.report.log_tool - INFO - 定位元素 //*[@id="app"]/section/div/div[2]/div/ul/li[2]/div/span 
+2020-12-10 18:16:32,832 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="9e6748a95ffa00ed007f9520cbeff3fd", element="a5d246f6-36a1-4dda-a29f-44a1773a1aa9")> 
+2020-12-10 18:16:33,975 - tools.report.log_tool - INFO - 定位元素 (//span[contains(text(),'处置列表')])[1] 
+2020-12-10 18:16:34,022 - tools.report.log_tool - INFO - 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="9e6748a95ffa00ed007f9520cbeff3fd", element="b5133bbb-6072-47e4-8468-9fe8b7629683")> 
+2020-12-10 18:16:35,158 - tools.report.log_tool - INFO - 获取元素： [<selenium.webdriver.remote.webelement.WebElement (session="9e6748a95ffa00ed007f9520cbeff3fd", element="cf69cedf-21f8-4835-9ffc-f323067d4f96")>, <selenium.webdriver.remote.webelement.WebElement (session="9e6748a95ffa00ed007f9520cbeff3fd", element="8289fddd-fc88-40a8-8ae5-049508ac7d87")>]  的展示文本为:  ['2012101801000013', '2012101800000001'] 
