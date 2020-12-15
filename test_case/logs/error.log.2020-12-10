@@ -1,0 +1,2 @@
+2020-12-10 18:06:54,106 - tools.report.log_tool - ERROR - (//div[contains(text(),'部门：')]/following-sibling::div/div/input)[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-10 18:09:12,787 - tools.report.log_tool - ERROR - (//div[contains(text(),'部门：')]/following-sibling::div/div/input)[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式

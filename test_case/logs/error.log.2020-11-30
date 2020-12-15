@@ -1,0 +1,3 @@
+2020-11-30 09:45:17,186 - tools.report.log_tool - ERROR - (//div[contains(text(),'人员：')]/following-sibling::div/div/input)[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-11-30 09:45:58,008 - tools.report.log_tool - ERROR - (//div[contains(text(),'人员：')]/following-sibling::div/div/input)[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-11-30 09:48:50,342 - tools.report.log_tool - ERROR - //div[@class="el-table__fixed-body-wrapper"]/table/tbody/tr[1]/td[1]/div/label/span[1]/span定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式

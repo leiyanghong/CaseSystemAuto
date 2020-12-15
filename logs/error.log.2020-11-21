@@ -1,0 +1,4 @@
+2020-11-21 11:17:32,074 - tools.report.log_tool - ERROR - //button[@class="el-button el-button--small"]/span定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-11-21 11:28:00,382 - tools.report.log_tool - ERROR - (//button[@class="el-button el-button--primary el-button--mini"])[last()]/span定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-11-21 15:19:52,918 - tools.report.log_tool - ERROR - (//li[contains(text(),'受理')])[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-11-21 15:24:48,439 - tools.report.log_tool - ERROR - (//li[contains(text(),'受理')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
