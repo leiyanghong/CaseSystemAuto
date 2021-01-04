@@ -1,2 +1,0 @@
-2020-11-26 18:55:39,031 - tools.report.log_tool - ERROR - //div[@class="el-table__fixed-body-wrapper"]/table/tbody/tr[1]/td[1]/div/label/span[1]/span定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
-2020-11-27 17:40:01,858 - tools.report.log_tool - ERROR - (//span[contains(text(),'立案')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式

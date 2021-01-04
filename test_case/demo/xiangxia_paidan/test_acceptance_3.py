@@ -64,8 +64,8 @@ def test_CaseReport(driver):
     contains_text_click("span", "案件督办", "1")
     driver.wait_util_text("(//span[contains(text(),'延期')])[1]", "延期")
     contains_text_click("span", "延期", "1")
-    # 点击更多操作 案件操作：延期通过
-    case_operate(case_acceptance="延期通过")
+    # 点击更多操作 案件操作：申请通过
+    case_operate(case_acceptance="申请通过")
     contains_text_click("span", "申请通过", "last()")
     driver.wait_util_text("(//p[contains(text(),'处理成功')])[1]", "处理成功")
 

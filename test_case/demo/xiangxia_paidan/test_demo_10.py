@@ -160,3 +160,61 @@ def test_qudubanshenpi(driver):
     case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
     # 断言 收回的案件编号是否成功流转至再派遣页面
     assert True == assert_xpath_text(case_number_list, case_number)
+
+
+'''
+区向下派遣至区部门>收回到区重新派遣
+'''
+def test_qujichongpai(driver):
+    # 登录-街道管理员PC端案件上报
+    user_login("qjadmin", "123456")
+    # 案件上报
+    case_qujishangbao("案件描述", random_tool.random_addr())
+    # 受理
+    if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
+        global case_number
+        case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
+        # 案件操作：受理案件
+        case_operate(case_acceptance="受理")
+        driver.click("//span[contains(text(),'直接立案')]/preceding-sibling::span/span")
+        driver.wait_util_text("//span[contains(text(),'受理并立案')]", "受理并立案")
+        contains_text_click("span", "受理并立案", "1")
+        driver.wait_util_text("(//p[contains(text(),'立案成功！')])[1]", "立案成功！")
+    else:
+        driver.wait_util_text("(//span[contains(text(),'更多操作')])[1]", "更多操作")
+    # 进入待派遣页面-向下派遣
+    contains_text_click("span", "案件派遣", "1")
+    driver.wait_util_text("(//span[contains(text(),'待派遣')])[1]", "待派遣")
+    contains_text_click("span", "待派遣", "1")
+    if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
+        # 案件操作：向下派遣 向街镇派遣
+        case_operate(case_acceptance="向下派遣")
+        # driver.click("(//span[contains(text(),'指派下级：')]/../following-sibling::div)[1]/label/span/span")
+        driver.send_keys("//div[contains(text(),'部门：')]/following-sibling::div/div/input", "区网格中心")
+        driver.click('(//i[@class="el-icon-search"])[last()]')
+        driver.click('//div[@class="el-table__fixed-body-wrapper"]/table/tbody/tr[1]/td[1]/div/label/span[1]/span')
+        contains_text_click("span", "确 定", "last()")
+        driver.wait_util_text("(//p[contains(text(),'操作成功！')])[1]", "操作成功！")
+    else:
+        driver.wait_util_text("(//span[contains(text(),'更多操作')])[1]", "更多操作")
+
+    # 管控(收回重派)
+    driver.wait_util_text("(//span[contains(text(),'管控')])[1]", "管控")
+    contains_text_click("span", "管控", "1")
+    # 获取管控页面的所有案件编号
+    case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
+    if assert_xpath_text(case_number_list, case_number):
+        # 管控-收回重派
+        case_operate(case_acceptance="收回重派")
+        contains_text_click("span", "确 定", "last()")
+        # 断言是否收回成功
+        driver.wait_util_text("//p[contains(text(),'处理成功！')]", "处理成功！")
+    else:
+        driver.wait_util_text("(//span[contains(text(),'更多操作')])[1] ", "更多操作")
+    # 进入再派遣页面
+    driver.wait_util_text("(//span[contains(text(),'再派遣')])", "再派遣")
+    driver.click("(//span[contains(text(),'再派遣')])")
+    case_number_list1 = driver.get_texts("//span[contains(text(),'案件编号')]/span")
+    # 断言 收回的案件编号是否成功流转至再派遣页面
+    assert True == assert_xpath_text(case_number_list1, case_number)
+

@@ -1,0 +1,117 @@
+{
+  "uid" : "c1b98e0918f1404c",
+  "name" : "test_CaseReport",
+  "fullName" : "test_case.demo.xiangxia_paidan.test_case_reported_1#test_CaseReport",
+  "historyId" : "90a971e4bae97d3fb92cce123405493c",
+  "time" : {
+    "start" : 1609407932098,
+    "stop" : 1609407993155,
+    "duration" : 61057
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "driver = <tools.ui.base_ui.BaseUI object at 0x0000022FF0E5D070>\n\n    def test_CaseReport(driver):\n        # 登录-街道管理员PC端案件上报\n        user_login(\"jdadmin\", \"123456\")\n        # 案件上报\n        case_reported(f\"案件描述{random_tool.random_str_abc(10)}\", random_tool.random_addr())\n        case_number = driver.get_text(\"(//span[contains(text(),'案件编号')])[2]/span\")\n        print(\"上报的案件编号为:\",case_number)\n        # 受理\n        if driver.is_element_exist(\"(//span[contains(text(),'更多操作')])[1] \"):\n            # 案件操作：受理案件\n            case_operate(case_acceptance=\"受理\")\n            contains_text_click(\"span\", \"确定\", \"1\")\n            driver.wait_util_text(\"(//p[contains(text(),'受理成功！')])[1]\", \"受理成功！\")\n        else:\n            # 案件上报\n            case_reported(f\"案件描述{random_tool.random_str_abc(10)}\", random_tool.random_addr())\n            # 案件操作：受理案件\n            case_operate(case_acceptance=\"受理\")\n            contains_text_click(\"span\", \"确定\", \"1\")\n            driver.wait_util_text(\"(//p[contains(text(),'受理成功！')])[1]\", \"受理成功！\")\n        # 立案\n        driver.wait_util_text(\"(//span[contains(text(),'案件立案')])[1]\", \"案件立案\")\n        contains_text_click(\"span\", \"案件立案\", \"1\")\n        driver.wait_util_text(\"(//span[contains(text(),'待立案')])[1]\", \"待立案\")\n        contains_text_click(\"span\", \"待立案\", \"1\")\n        if driver.is_element_exist(\"(//span[contains(text(),'更多操作')])[1] \"):\n            # 案件操作：受理案件\n            case_operate(case_acceptance=\"立案\")\n            driver.wait_util_text(\"((//span[contains(text(),'案件编号')])/../following-sibling::div/button)[2]/span\", \"立案\")\n            driver.click(\"((//span[contains(text(),'案件编号')])/../following-sibling::div/button)[2]/span\")\n            contains_text_click(\"span\", \"确 定\", \"last()\")\n            driver.wait_util_text(\"(//p[contains(text(),'保存成功！')])[1]\", \"保存成功！\")\n        else:\n            driver.wait_util_text(\"(//span[contains(text(),'更多操作')])[1] \", \"更多操作\")\n        # 进入待派遣页面-指派处置人\n        contains_text_click(\"span\", \"案件派遣\", \"1\")\n        driver.wait_util_text(\"(//span[contains(text(),'待派遣')])[1]\", \"待派遣\")\n        contains_text_click(\"span\", \"待派遣\", \"1\")\n        try:\n            if driver.is_element_exist(\"(//span[contains(text(),'更多操作')])[1] \"):\n                # 指派处置人\n                case_operate(case_acceptance=\"指派处置人\")\n                # 弹框搜索选择指派处置人\n                case_flow_pop_up_operation(\"div\", '人员：', \"1\", \"雷阳洪\")\n                # 断言是否指派成功\n                driver.wait_util_text(\"//p[contains(text(),'指派成功!')]\", \"指派成功!\")\n            else:\n                driver.wait_util_text(\"(//span[contains(text(),'更多操作')])[1] \", \"更多操作\")\n        except Exception as e:\n            print(\"没有可派遣的案件，请立案后再派遣\")\n>           raise e\n\ntest_case\\demo\\xiangxia_paidan\\test_case_reported_1.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_case\\demo\\xiangxia_paidan\\test_case_reported_1.py:61: in test_CaseReport\n    driver.wait_util_text(\"//p[contains(text(),'指派成功!')]\", \"指派成功!\")\ntools\\ui\\base_ui.py:747: in wait_util_text\n    raise e\ntools\\ui\\base_ui.py:743: in wait_util_text\n    is_true = WebDriverWait(BaseUI.driver, secs).until(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"664ee7c5f50bd5e5232f90c0fb1c2e41\")>\nmethod = <selenium.webdriver.support.expected_conditions.text_to_be_present_in_element object at 0x0000022FF0EC9C10>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nD:\\software\\python3.85\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1609407926264,
+      "stop" : 1609407932096,
+      "duration" : 5832
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "driver = <tools.ui.base_ui.BaseUI object at 0x0000022FF0E5D070>\n\n    def test_CaseReport(driver):\n        # 登录-街道管理员PC端案件上报\n        user_login(\"jdadmin\", \"123456\")\n        # 案件上报\n        case_reported(f\"案件描述{random_tool.random_str_abc(10)}\", random_tool.random_addr())\n        case_number = driver.get_text(\"(//span[contains(text(),'案件编号')])[2]/span\")\n        print(\"上报的案件编号为:\",case_number)\n        # 受理\n        if driver.is_element_exist(\"(//span[contains(text(),'更多操作')])[1] \"):\n            # 案件操作：受理案件\n            case_operate(case_acceptance=\"受理\")\n            contains_text_click(\"span\", \"确定\", \"1\")\n            driver.wait_util_text(\"(//p[contains(text(),'受理成功！')])[1]\", \"受理成功！\")\n        else:\n            # 案件上报\n            case_reported(f\"案件描述{random_tool.random_str_abc(10)}\", random_tool.random_addr())\n            # 案件操作：受理案件\n            case_operate(case_acceptance=\"受理\")\n            contains_text_click(\"span\", \"确定\", \"1\")\n            driver.wait_util_text(\"(//p[contains(text(),'受理成功！')])[1]\", \"受理成功！\")\n        # 立案\n        driver.wait_util_text(\"(//span[contains(text(),'案件立案')])[1]\", \"案件立案\")\n        contains_text_click(\"span\", \"案件立案\", \"1\")\n        driver.wait_util_text(\"(//span[contains(text(),'待立案')])[1]\", \"待立案\")\n        contains_text_click(\"span\", \"待立案\", \"1\")\n        if driver.is_element_exist(\"(//span[contains(text(),'更多操作')])[1] \"):\n            # 案件操作：受理案件\n            case_operate(case_acceptance=\"立案\")\n            driver.wait_util_text(\"((//span[contains(text(),'案件编号')])/../following-sibling::div/button)[2]/span\", \"立案\")\n            driver.click(\"((//span[contains(text(),'案件编号')])/../following-sibling::div/button)[2]/span\")\n            contains_text_click(\"span\", \"确 定\", \"last()\")\n            driver.wait_util_text(\"(//p[contains(text(),'保存成功！')])[1]\", \"保存成功！\")\n        else:\n            driver.wait_util_text(\"(//span[contains(text(),'更多操作')])[1] \", \"更多操作\")\n        # 进入待派遣页面-指派处置人\n        contains_text_click(\"span\", \"案件派遣\", \"1\")\n        driver.wait_util_text(\"(//span[contains(text(),'待派遣')])[1]\", \"待派遣\")\n        contains_text_click(\"span\", \"待派遣\", \"1\")\n        try:\n            if driver.is_element_exist(\"(//span[contains(text(),'更多操作')])[1] \"):\n                # 指派处置人\n                case_operate(case_acceptance=\"指派处置人\")\n                # 弹框搜索选择指派处置人\n                case_flow_pop_up_operation(\"div\", '人员：', \"1\", \"雷阳洪\")\n                # 断言是否指派成功\n                driver.wait_util_text(\"//p[contains(text(),'指派成功!')]\", \"指派成功!\")\n            else:\n                driver.wait_util_text(\"(//span[contains(text(),'更多操作')])[1] \", \"更多操作\")\n        except Exception as e:\n            print(\"没有可派遣的案件，请立案后再派遣\")\n>           raise e\n\ntest_case\\demo\\xiangxia_paidan\\test_case_reported_1.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntest_case\\demo\\xiangxia_paidan\\test_case_reported_1.py:61: in test_CaseReport\n    driver.wait_util_text(\"//p[contains(text(),'指派成功!')]\", \"指派成功!\")\ntools\\ui\\base_ui.py:747: in wait_util_text\n    raise e\ntools\\ui\\base_ui.py:743: in wait_util_text\n    is_true = WebDriverWait(BaseUI.driver, secs).until(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"664ee7c5f50bd5e5232f90c0fb1c2e41\")>\nmethod = <selenium.webdriver.support.expected_conditions.text_to_be_present_in_element object at 0x0000022FF0EC9C10>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nD:\\software\\python3.85\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0eadee000e7ec1b",
+      "name" : "log",
+      "source" : "e0eadee000e7ec1b.txt",
+      "type" : "text/plain",
+      "size" : 12518
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1609407993831,
+      "stop" : 1609407996132,
+      "duration" : 2301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case.demo.xiangxia_paidan"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_reported_1"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "WIN10-20201020H"
+  }, {
+    "name" : "thread",
+    "value" : "15548-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.demo.xiangxia_paidan.test_case_reported_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3b9ca0d09ca5290",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'is_displayed'",
+      "time" : {
+        "start" : 1609407903303,
+        "stop" : 1609407923287,
+        "duration" : 19984
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c1b98e0918f1404c.json",
+  "parameterValues" : [ ]
+}

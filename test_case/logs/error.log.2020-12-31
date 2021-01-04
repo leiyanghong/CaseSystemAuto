@@ -1,0 +1,15 @@
+2020-12-31 09:58:57,722 - tools.report.log_tool - ERROR - (//span[contains(text(),'确 定')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 10:04:56,929 - tools.report.log_tool - ERROR - (//span[contains(text(),'确 定')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 10:22:55,080 - tools.report.log_tool - ERROR - (//span[contains(text(),'网格中心')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 10:34:09,044 - tools.report.log_tool - ERROR - (//span[contains(text(),'网格中心')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 10:43:00,390 - tools.report.log_tool - ERROR - (//span[contains(text(),'更多操作')])[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 10:46:13,427 - tools.report.log_tool - ERROR - (//span[contains(text(),'更多操作')])[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 11:46:17,207 - tools.report.log_tool - ERROR - (//span[contains(text(),'核查列表')])[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 11:46:59,003 - tools.report.log_tool - ERROR - (//span[contains(text(),'核查列表')])[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 11:51:06,154 - tools.report.log_tool - ERROR - (//span[contains(text(),'核查列表')])[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 12:11:17,717 - tools.report.log_tool - ERROR - //span[contains(text(),'否')]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 14:29:23,524 - tools.report.log_tool - ERROR - 启动浏览器失败,请检查webdriver是否配置，或者webdriver版本是否和浏览器匹配
+2020-12-31 14:48:38,241 - tools.report.log_tool - ERROR - (//span[contains(text(),'案件编号')])[2]/span定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 15:19:23,810 - tools.report.log_tool - ERROR - (//li[contains(text(),'延期通过')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 16:47:49,597 - tools.report.log_tool - ERROR - (//li[contains(text(),'受理')])[last()]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
+2020-12-31 16:49:17,335 - tools.report.log_tool - ERROR - //span[contains(text(),'事件 / 青东五镇专项整治 / 废弃车辆')]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式

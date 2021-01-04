@@ -16,9 +16,10 @@ from tools.report.assert_tool import assert_xpath_text
 
 def test_CaseReport(driver):
     # 登录-街道管理员PC端案件上报
-    user_login("jdadmin", "123456")
+    user_login("jdadmin", "1234567")
     # 案件上报
     case_reported(f"案件描述{random_tool.random_str_abc(10)}", random_tool.random_addr())
+    case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
     # 受理
     if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
         # 案件操作：受理案件
@@ -55,6 +56,7 @@ def test_CaseReport(driver):
         sleep(1)
         # 上传处置结果
         driver.file_upload("(//div[contains(text(),'处置结果')])[1]/following-sibling::div/div/div/div/i", FILE_PATH)
+        sleep(1)
         # 完成处置
         driver.click(
             "//button[@class='el-button el-tooltip case-el-btn el-button--primary el-button--small']/span[contains(text(),'完成处置')]")
@@ -80,7 +82,6 @@ def test_CaseReport(driver):
     contains_text_click("span", "案件结案", "1")
     driver.wait_util_text("(//span[contains(text(),'待结案')])[1]", "待结案")
     contains_text_click("span", "待结案", "1")
-    case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
     # 点击更多操作
     case_operate(case_acceptance="结案")
     driver.wait_util_text("(//span[contains(text(),'结案')])[last()]", "结案")
@@ -90,10 +91,11 @@ def test_CaseReport(driver):
     # 进入案件结案-已结案
     driver.wait_util_text("(//span[contains(text(),'已结案')])[1]", "已结案")
     contains_text_click("span", "已结案", "1")
-    print("进入已结案页面")
+    driver.click('//*[@id="app"]/section/div/div[2]/div/ul/li[1]/ul/li[5]/ul/li[2]/span')
     # 获取案件编号列表
     case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
     print(f"获取案件编号:{case_number_list}")
     # 断言 是否结案成功
-    assert_xpath_text(case_number_list, case_number)
-    print("断言成功")
+    assert True == assert_xpath_text(case_number_list, case_number)
+
+

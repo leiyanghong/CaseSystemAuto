@@ -12,16 +12,21 @@
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_send_5_testdemo1.coverage" NAME="pytest for test_send_5.testdemo1 Coverage Results" MODIFIED="1606979915086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_to_send/to_be_dispatched" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_demo1.coverage" NAME="pytest for test_case_reported_1.test_demo1 Coverage Results" MODIFIED="1606455668603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_report" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_send_5_testdemo.coverage" NAME="pytest for test_send_5.testdemo Coverage Results" MODIFIED="1606979694176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_to_send/to_be_dispatched" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_1.coverage" NAME="pytest for test_case_reported_1.test_1 Coverage Results" MODIFIED="1609387173244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_send_4_test_placed_on_file.coverage" NAME="pytest for test_case_send_4.test_placed_on_file Coverage Results" MODIFIED="1606211988385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_send_4_test_up_to_send.coverage" NAME="pytest for test_case_send_4.test_up_to_send Coverage Results" MODIFIED="1606299094356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_8_test_xiangshangpaiqian.coverage" NAME="pytest for test_demo_8.test_xiangshangpaiqian Coverage Results" MODIFIED="1607589151701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_pass_2_test_demo2.coverage" NAME="pytest for test_verify_pass_2.test_demo2 Coverage Results" MODIFIED="1606889457790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/The_case_found/to_accept" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_10_test_qudubanshenpi.coverage" NAME="pytest for test_demo_10.test_qudubanshenpi Coverage Results" MODIFIED="1608016448432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_de.coverage" NAME="pytest for test_case_reported_1.test_de Coverage Results" MODIFIED="1609383779984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_1.coverage" NAME="pytest for test_anjianshangbao.test_1 Coverage Results" MODIFIED="1606186367236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_09_test_demo.coverage" NAME="pytest for test_demo_09.test_demo Coverage Results" MODIFIED="1607585231548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_in_test_placed_on_file_4_py.coverage" NAME="pytest in test_placed_on_file_4.py Coverage Results" MODIFIED="1609399432443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_in_test_demo_8_py.coverage" NAME="pytest in test_demo_8.py Coverage Results" MODIFIED="1609752279573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_verify_pass.coverage" NAME="pytest for test_anjianshangbao.test_verify_pass Coverage Results" MODIFIED="1606186511536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
-    <SUITE FILE_PATH="coverage/CaseSystemAuto$random_tool.coverage" NAME="random_tool Coverage Results" MODIFIED="1605946808599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/data" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$random_tool.coverage" NAME="random_tool Coverage Results" MODIFIED="1608802116390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/data" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_test_verify_no_pass.coverage" NAME="pytest for test_verify.test_verify_no_pass Coverage Results" MODIFIED="1606200497855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_3.coverage" NAME="pytest for test_case_reported_1.test_3 Coverage Results" MODIFIED="1609389682682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_test_verify_pass.coverage" NAME="pytest for test_verify.test_verify_pass Coverage Results" MODIFIED="1606196608662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_8_test_demo.coverage" NAME="pytest for test_demo_8.test_demo Coverage Results" MODIFIED="1607589376569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_CaseReport12.coverage" NAME="pytest for test_anjianshangbao.test_CaseReport12 Coverage Results" MODIFIED="1606117370233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
@@ -29,29 +34,35 @@
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_AnJianShangBao.coverage" NAME="pytest for test_anjianshangbao.test_AnJianShangBao Coverage Results" MODIFIED="1605948682114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_09_test_CaseReport1.coverage" NAME="pytest for test_demo_09.test_CaseReport1 Coverage Results" MODIFIED="1607587486641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_placed_on_file_4_test_CaseReport.coverage" NAME="pytest for test_placed_on_file_4.test_CaseReport Coverage Results" MODIFIED="1606962083481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/the_case_file/to_be_put_on_record" />
-    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_demo.coverage" NAME="pytest for test_case_reported_1.test_demo Coverage Results" MODIFIED="1606872780907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_report" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_demo.coverage" NAME="pytest for test_case_reported_1.test_demo Coverage Results" MODIFIED="1609382595142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_2_test_acceptance.coverage" NAME="pytest for test_verify_2.test_acceptance Coverage Results" MODIFIED="1606207819889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$ddddd.coverage" NAME="ddddd Coverage Results" MODIFIED="1607330086257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_for_disposal_6_test_assigned_handler.coverage" NAME="pytest for test_for_disposal_6.test_assigned_handler Coverage Results" MODIFIED="1606387468345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_disposal/for_disposal" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_8_test_zhipaichuzhiren.coverage" NAME="pytest for test_demo_8.test_zhipaichuzhiren Coverage Results" MODIFIED="1609404517536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_baidu_test_baidu.coverage" NAME="pytest for test_baidu.test_baidu Coverage Results" MODIFIED="1602486502344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_10_test_demo.coverage" NAME="pytest for test_demo_10.test_demo Coverage Results" MODIFIED="1607595382316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_CaseReport1.coverage" NAME="pytest for test_anjianshangbao.test_CaseReport1 Coverage Results" MODIFIED="1606125878267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
-    <SUITE FILE_PATH="coverage/CaseSystemAuto$run.coverage" NAME="run Coverage Results" MODIFIED="1607326183259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_acceptance_3_test_CaseReport.coverage" NAME="pytest for test_acceptance_3.test_CaseReport Coverage Results" MODIFIED="1609399301348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$run.coverage" NAME="run Coverage Results" MODIFIED="1609407925429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_8_test_CaseReport.coverage" NAME="pytest for test_demo_8.test_CaseReport Coverage Results" MODIFIED="1607406324814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_send_4_test_placed_on_file1.coverage" NAME="pytest for test_case_send_4.test_placed_on_file1 Coverage Results" MODIFIED="1606294491076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_pass_2_test_demo.coverage" NAME="pytest for test_verify_pass_2.test_demo Coverage Results" MODIFIED="1606889426278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/The_case_found/to_accept" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_in_test_send_5_py.coverage" NAME="pytest in test_send_5.py Coverage Results" MODIFIED="1609400774808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$dada.coverage" NAME="dada Coverage Results" MODIFIED="1602486356411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_for_disposal_6_test_CaseReport.coverage" NAME="pytest for test_for_disposal_6.test_CaseReport Coverage Results" MODIFIED="1607068886478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_disposal/for_disposal" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_for_disposal_6_test_CaseReport.coverage" NAME="pytest for test_for_disposal_6.test_CaseReport Coverage Results" MODIFIED="1609400971283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_AnJianShangBao1.coverage" NAME="pytest for test_anjianshangbao.test_AnJianShangBao1 Coverage Results" MODIFIED="1603878027305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$base_ui.coverage" NAME="base_ui Coverage Results" MODIFIED="1606188436634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/ui" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_send_5_test_demo2.coverage" NAME="pytest for test_send_5.test_demo2 Coverage Results" MODIFIED="1607051679791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_to_send/to_be_dispatched" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_demo1.coverage" NAME="pytest for test_anjianshangbao.test_demo1 Coverage Results" MODIFIED="1606125644987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_placed_on_file_4_test_shenqingtuidan.coverage" NAME="pytest for test_placed_on_file_4.test_shenqingtuidan Coverage Results" MODIFIED="1609400557841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_aceptar_case.coverage" NAME="pytest for test_anjianshangbao.test_aceptar_case Coverage Results" MODIFIED="1606101709126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
-    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_pass_2_test_demo1.coverage" NAME="pytest for test_verify_pass_2.test_demo1 Coverage Results" MODIFIED="1606878660627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/The_case_found/to_accept" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_pass_2_test_demo1.coverage" NAME="pytest for test_verify_pass_2.test_demo1 Coverage Results" MODIFIED="1609397374095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_in_demo.coverage" NAME="pytest in demo Coverage Results" MODIFIED="1606209768687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
-    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_pass_2_test_CaseReport.coverage" NAME="pytest for test_verify_pass_2.test_CaseReport Coverage Results" MODIFIED="1606878759852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/The_case_found/to_accept" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_pass_2_test_CaseReport.coverage" NAME="pytest for test_verify_pass_2.test_CaseReport Coverage Results" MODIFIED="1609398960932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_in_test_demo_7_py.coverage" NAME="pytest in test_demo_7.py Coverage Results" MODIFIED="1609401048717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_CaseReport.coverage" NAME="pytest for test_anjianshangbao.test_CaseReport Coverage Results" MODIFIED="1606197209046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_anjianshangbao_test_login.coverage" NAME="pytest for test_anjianshangbao.test_login Coverage Results" MODIFIED="1605928603084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_12.coverage" NAME="pytest for test_case_reported_1.test_12 Coverage Results" MODIFIED="1609387479205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_send_5_test_CaseReport.coverage" NAME="pytest for test_send_5.test_CaseReport Coverage Results" MODIFIED="1606979941222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_to_send/to_be_dispatched" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_10_test_xiangshangpaiqian.coverage" NAME="pytest for test_demo_10.test_xiangshangpaiqian Coverage Results" MODIFIED="1607595114364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_verify_pass_2_test_demo3.coverage" NAME="pytest for test_verify_pass_2.test_demo3 Coverage Results" MODIFIED="1606889654856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/The_case_found/to_accept" />
@@ -60,8 +71,9 @@
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_in_test_verify_py.coverage" NAME="pytest in test_verify.py Coverage Results" MODIFIED="1606187416529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$log_tool.coverage" NAME="log_tool Coverage Results" MODIFIED="1607061682645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/report" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_in_test_anjianshangbao_py.coverage" NAME="pytest in test_anjianshangbao.py Coverage Results" MODIFIED="1606196677609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
-    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_CaseReport.coverage" NAME="pytest for test_case_reported_1.test_CaseReport Coverage Results" MODIFIED="1606991506050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/case_report" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_CaseReport.coverage" NAME="pytest for test_case_reported_1.test_CaseReport Coverage Results" MODIFIED="1609751248712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$time_tool.coverage" NAME="time_tool Coverage Results" MODIFIED="1605001540419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/data" />
+    <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_reported_1_test_f.coverage" NAME="pytest for test_case_reported_1.test_f Coverage Results" MODIFIED="1609386523962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_case_send_4_test_sent_down.coverage" NAME="pytest for test_case_send_4.test_sent_down Coverage Results" MODIFIED="1606298571342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
     <SUITE FILE_PATH="coverage/CaseSystemAuto$pytest_for_test_demo_8_test_CaseReport1.coverage" NAME="pytest for test_demo_8.test_CaseReport1 Coverage Results" MODIFIED="1607406487794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/demo" />
   </component>
@@ -102,44 +114,45 @@
     <session id="-1405798268">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="2020-11-26" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="2" />
+          <entry key="html" value="3" />
           <entry key="md" value="1" />
-          <entry key="py" value="140" />
+          <entry key="py" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="140" />
+          <entry key="Python" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="33" />
           <entry key="dummy" value="52" />
-          <entry key="py" value="8421" />
+          <entry key="py" value="9037" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="52" />
-          <entry key="Python" value="8454" />
+          <entry key="Python" value="9070" />
         </counts>
       </usages-collector>
     </session>
@@ -150,101 +163,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_for_disposal_6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="e#23#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_send_5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-              <folding>
-                <element signature="e#23#45#0" expanded="true" />
-                <marker date="1607062043500" expanded="true" signature="2287:2292" ph="..." />
-                <marker date="1607062043500" expanded="true" signature="3331:3336" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+            <state relative-caret-position="-713">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#23#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-              <folding>
-                <element signature="e#23#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddddd.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
+        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="-1121">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_09.py">
+        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_case_reported_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+            <state relative-caret-position="160">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
-                <element signature="e#23#45#0" expanded="true" />
+                <marker date="1609751202453" expanded="true" signature="3969:3974" ph="..." />
+                <marker date="1609751202453" expanded="true" signature="4872:4877" ph="..." />
+                <marker date="1609751202453" expanded="true" signature="5297:5302" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_10.py">
+        <entry file="file://$PROJECT_DIR$/tools/data/time_tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
-              <folding>
-                <element signature="e#23#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/ui/base_ui.py">
+        <entry file="file://$PROJECT_DIR$/po/login/user_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="822" column="16" selection-start-line="822" selection-start-column="16" selection-end-line="822" selection-end-column="16" />
-              <folding>
-                <element signature="e#15#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/po/login/login_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reports/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_verify_pass_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -260,25 +271,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_text</find>
-      <find>log</find>
-      <find>指派处置人</find>
-      <find>向下派遣</find>
-      <find>移动</find>
-      <find>指定处置人</find>
-      <find>case_flow_pop_up_operation</find>
-      <find>case_number_list</find>
-      <find>核实列表</find>
-      <find>我的案件</find>
-      <find>指定核实人</find>
-      <find>更多操作</find>
       <find>核实</find>
       <find>通过</find>
       <find>退单</find>
       <find>人员</find>
       <find>向上派遣</find>
       <find>number</find>
-      <find>case_number</find>
       <find>assert</find>
       <find>case_operate(case_acceptance=&quot;向上派遣&quot;)</find>
       <find>处置列表</find>
@@ -288,24 +286,35 @@
       <find>案件派遣</find>
       <find>催单</find>
       <find>再派遣</find>
-      <find>收回重派</find>
       <find>延期</find>
+      <find>收回重派</find>
+      <find>contains_text_click(&quot;span&quot;, &quot;网格中心&quot;, &quot;last()&quot;)</find>
+      <find>case_operate(case_acceptance=&quot;指定核查人&quot;)</find>
+      <find>双击</find>
+      <find>driver.wait_util_text(&quot;(//span[contains(text(),'核查列表')])[1]&quot;, &quot;核查列表&quot;)</find>
+      <find>case_number = driver.get_text(&quot;(//span[contains(text(),'案件编号')])[2]/span&quot;)</find>
+      <find>(//span[contains(text(),'案件编号')])[2]/span</find>
+      <find>contains_text_click(&quot;span&quot;, &quot;已结案&quot;, &quot;1&quot;)</find>
+      <find>driver.wait_util_text(&quot;//p[contains(text(),'操作成功！')]&quot;, &quot;操作成功！&quot;)</find>
+      <find># 断言 验证案件编号是否成功流转至待派遣页面</find>
+      <find>assert True == assert_xpath_text(case_number_list1, case_number1)</find>
+      <find>case_number</find>
+      <find>&quot;span&quot;, &quot;已结案&quot;, &quot;1&quot;</find>
+      <find>driver.click(&quot;(//span[contains(text(),'已结案')])[1]&quot;)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CaseSystemAuto" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dada.py" />
         <option value="$PROJECT_DIR$/test_case/demo/test_baidu.py" />
         <option value="$PROJECT_DIR$/tools/data/yaml_tool.py" />
         <option value="$PROJECT_DIR$/tools/data/excel_tool.py" />
         <option value="$PROJECT_DIR$/po/login.py" />
         <option value="$PROJECT_DIR$/po/login/user_login.py" />
         <option value="$PROJECT_DIR$/po/login/test_user.py" />
-        <option value="$PROJECT_DIR$/tools/data/random_tool.py" />
         <option value="$PROJECT_DIR$/po/case_operate/case_operate.py" />
         <option value="$PROJECT_DIR$/po/login/login_page.py" />
         <option value="$PROJECT_DIR$/test_case/demo/test_anjianshangbao.py" />
@@ -322,7 +331,6 @@
         <option value="$PROJECT_DIR$/test_case/demo/test_placed_on_file_4.py" />
         <option value="$PROJECT_DIR$/test_case/demo/test_send_5.py" />
         <option value="$PROJECT_DIR$/test_case/demo/case_disposal/for_disposal/test_for_disposal.py" />
-        <option value="$PROJECT_DIR$/config/config.py" />
         <option value="$PROJECT_DIR$/test_case/demo/The_case_found/to_accept/test_verify_pass_2.py" />
         <option value="$PROJECT_DIR$/test_case/demo/the_case_file/to_be_put_on_record/test_placed_on_file_4.py" />
         <option value="$PROJECT_DIR$/test_case/demo/The_case_found/to_accept/test_acceptance_3.py" />
@@ -330,7 +338,6 @@
         <option value="$PROJECT_DIR$/test_case/demo/case_to_send/to_be_dispatched/test_send_5.py" />
         <option value="$PROJECT_DIR$/tools/report/assert_tool.py" />
         <option value="$PROJECT_DIR$/test_case/demo/case_disposal/for_disposal/test_for_disposal_6.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/ddddd.py" />
         <option value="$PROJECT_DIR$/test_case/demo/test_demo_7.py" />
         <option value="$PROJECT_DIR$/test_case/demo/test_demo_8.py" />
@@ -338,14 +345,21 @@
         <option value="$PROJECT_DIR$/po/case_report/case_report.py" />
         <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_09.py" />
         <option value="$PROJECT_DIR$/test_case/demo/xiangshang_paidan/test_demo_10.py" />
-        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_8.py" />
-        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_placed_on_file_4.py" />
         <option value="$PROJECT_DIR$/po/case_report/cas_report_page.py" />
         <option value="$PROJECT_DIR$/po/case_report/case_qujishangbao2.py" />
         <option value="$PROJECT_DIR$/po/case_operate/case_operate_page.py" />
         <option value="$PROJECT_DIR$/po/case_report/case_qujishangbao.py" />
-        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_10.py" />
         <option value="$PROJECT_DIR$/tools/ui/base_ui.py" />
+        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_10.py" />
+        <option value="$PROJECT_DIR$/tools/data/random_tool.py" />
+        <option value="$PROJECT_DIR$/config/config.py" />
+        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_acceptance_3.py" />
+        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_placed_on_file_4.py" />
+        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_send_5.py" />
+        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_verify_pass_2.py" />
+        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_8.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_case_reported_1.py" />
       </list>
     </option>
   </component>
@@ -355,11 +369,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="427" />
-    <option name="y" value="271" />
-    <option name="width" value="575" />
-    <option name="height" value="305" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="576" />
+    <option name="height" value="309" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -367,6 +381,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,11 +389,43 @@
               <item name="CaseSystemAuto" type="b2602c69:ProjectViewProjectNode" />
               <item name="CaseSystemAuto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CaseSystemAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaseSystemAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CaseSystemAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaseSystemAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CaseSystemAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaseSystemAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CaseSystemAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaseSystemAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CaseSystemAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaseSystemAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CaseSystemAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CaseSystemAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="os" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,19 +437,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\software_data\pycharm_project\CaseSystemAuto\po\case_report" />
-      <recent name="D:\software_data\pycharm_project\CaseSystemAuto\test_case\demo" />
-      <recent name="D:\software_data\pycharm_project\CaseSystemAuto" />
-      <recent name="D:\software_data\pycharm_project\CaseSystemAuto\chrome_driver" />
-      <recent name="D:\softwareData\PyCharmProject\CaseSystemAuto\test_case" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\software_data\pycharm_project\CaseSystemAuto\test_case\demo\xiangxia_paidan" />
       <recent name="D:\software_data\pycharm_project\CaseSystemAuto\test_case\demo" />
       <recent name="D:\software_data\pycharm_project\CaseSystemAuto\test_case\demo\case_to_send\to_be_dispatched" />
       <recent name="D:\software_data\pycharm_project\CaseSystemAuto\test_case\demo\case_to_send" />
       <recent name="D:\software_data\pycharm_project\CaseSystemAuto\test_case\demo\the_case_file\to_be_put_on_record" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software_data\pycharm_project\CaseSystemAuto\chrome_driver" />
+      <recent name="D:\software_data\pycharm_project\CaseSystemAuto\po\case_report" />
+      <recent name="D:\software_data\pycharm_project\CaseSystemAuto\test_case\demo" />
+      <recent name="D:\software_data\pycharm_project\CaseSystemAuto" />
+      <recent name="D:\softwareData\PyCharmProject\CaseSystemAuto\test_case" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,8 +464,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_demo_10.test_qudubanshenpi">
-    <configuration name="pytest for test_demo_10.test_demo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_demo_8.py">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CaseSystemAuto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_case_reported_1.test_CaseReport" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CaseSystemAuto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,11 +499,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo_10.test_demo&quot;" />
+      <option name="_new_target" value="&quot;test_case_reported_1.test_CaseReport&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_demo_10.test_qudubanshenpi" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_demo_8.test_zhipaichuzhiren" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CaseSystemAuto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -446,11 +515,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo_10.test_qudubanshenpi&quot;" />
+      <option name="_new_target" value="&quot;test_demo_8.test_zhipaichuzhiren&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_demo_10.test_xiangshangpaiqian" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_demo_7.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CaseSystemAuto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,11 +531,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo_10.test_xiangshangpaiqian&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_7.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_demo_8.test_demo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_demo_8.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CaseSystemAuto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -478,40 +547,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo_8.test_demo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_demo_8.test_xiangshangpaiqian" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="CaseSystemAuto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/demo/xiangxia_paidan" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo_8.test_xiangshangpaiqian&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_8.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_demo_8.test_xiangshangpaiqian" />
-      <item itemvalue="Python tests.pytest for test_demo_8.test_demo" />
-      <item itemvalue="Python tests.pytest for test_demo_10.test_xiangshangpaiqian" />
-      <item itemvalue="Python tests.pytest for test_demo_10.test_demo" />
-      <item itemvalue="Python tests.pytest for test_demo_10.test_qudubanshenpi" />
+      <item itemvalue="Python tests.pytest in test_demo_7.py" />
+      <item itemvalue="Python tests.pytest in test_demo_8.py" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python tests.pytest for test_demo_8.test_zhipaichuzhiren" />
+      <item itemvalue="Python tests.pytest for test_case_reported_1.test_CaseReport" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_demo_10.test_qudubanshenpi" />
-        <item itemvalue="Python tests.pytest for test_demo_10.test_demo" />
-        <item itemvalue="Python tests.pytest for test_demo_10.test_xiangshangpaiqian" />
-        <item itemvalue="Python tests.pytest for test_demo_8.test_demo" />
-        <item itemvalue="Python tests.pytest for test_demo_8.test_xiangshangpaiqian" />
+        <item itemvalue="Python tests.pytest in test_demo_8.py" />
+        <item itemvalue="Python tests.pytest for test_case_reported_1.test_CaseReport" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.pytest for test_demo_8.test_zhipaichuzhiren" />
+        <item itemvalue="Python tests.pytest in test_demo_7.py" />
       </list>
     </recent_temporary>
   </component>
@@ -529,47 +582,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_demo_10_test_xiangshangpaiqian - 2020.12.10 at 18h 13m 01s.xml">
-      <configuration name="pytest for test_demo_10.test_xiangshangpaiqian" configurationId="tests" />
+    <history-entry file="pytest_for_test_placed_on_file_4_test_shenqingtuidan - 2020.12.31 at 15h 43m 42s.xml">
+      <configuration name="pytest for test_placed_on_file_4.test_shenqingtuidan" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.14 at 17h 59m 02s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_in_test_send_5_py - 2020.12.31 at 15h 48m 29s.xml">
+      <configuration name="pytest in test_send_5.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 10h 45m 58s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_for_test_for_disposal_6_test_CaseReport - 2020.12.31 at 15h 50m 28s.xml">
+      <configuration name="pytest for test_for_disposal_6.test_CaseReport" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 10h 50m 23s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_7_py - 2020.12.31 at 15h 51m 46s.xml">
+      <configuration name="pytest in test_demo_7.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 10h 50m 59s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_8_py - 2020.12.31 at 15h 54m 59s.xml">
+      <configuration name="pytest in test_demo_8.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 13h 53m 43s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_for_test_demo_8_test_zhipaichuzhiren - 2020.12.31 at 16h 47m 52s.xml">
+      <configuration name="pytest for test_demo_8.test_zhipaichuzhiren" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 14h 13m 19s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_for_test_demo_8_test_zhipaichuzhiren - 2020.12.31 at 16h 49m 20s.xml">
+      <configuration name="pytest for test_demo_8.test_zhipaichuzhiren" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 14h 38m 52s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_reported_1_test_CaseReport - 2021.01.04 at 11h 16m 15s.xml">
+      <configuration name="pytest for test_case_reported_1.test_CaseReport" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 15h 11m 55s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_for_test_case_reported_1_test_CaseReport - 2021.01.04 at 17h 09m 18s.xml">
+      <configuration name="pytest for test_case_reported_1.test_CaseReport" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo_10_test_qudubanshenpi - 2020.12.15 at 15h 15m 23s.xml">
-      <configuration name="pytest for test_demo_10.test_qudubanshenpi" configurationId="tests" />
+    <history-entry file="pytest_in_test_demo_8_py - 2021.01.04 at 17h 25m 53s.xml">
+      <configuration name="pytest in test_demo_8.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="top" id="Concurrent Activities Diagram" order="0" weight="0.329718" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.27970898" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5027027" side_tool="true" weight="0.27970898" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.60780066" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41207814" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2505423" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43383947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,7 +632,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3143872" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31344903" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -623,16 +677,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/software/python3.85/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/data/config_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/data/json_path_tool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -658,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/data/time_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -697,16 +734,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/po/login/test_user.py" />
-    <entry file="file://$PROJECT_DIR$/tools/data/random_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
-          <folding>
-            <element signature="e#30#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/software/python3.85/Lib/posixpath.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -717,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#788#801#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,13 +761,6 @@
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -768,41 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/po/login/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/po/login/user_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/report/log_tool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/report/assert_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -810,13 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -828,57 +807,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_verify_pass_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-            <marker date="1606889757902" expanded="true" signature="1193:1198" ph="..." />
-            <marker date="1606889757902" expanded="true" signature="2609:2614" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_acceptance_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_case_reported_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="75" selection-end-column="44" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-            <marker date="1606982431571" expanded="true" signature="481:486" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/po/case_report/cas_report_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#45#67#0" expanded="true" />
-            <marker date="1607940158116" expanded="true" signature="1842:1887" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/po/case_report/case_qujishangbao2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/po/case_report/case_qujishangbao2.py" />
     <entry file="file://$PROJECT_DIR$/po/case_report/case_qujishangbao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -886,104 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/po/case_operate/case_operate_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <marker date="1608002201198" expanded="true" signature="129:161" ph="..." />
-            <marker date="1608002201198" expanded="true" signature="526:605" ph="..." />
-            <marker date="1608002201198" expanded="true" signature="2044:2045" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/po/case_report/case_report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_placed_on_file_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/ui/base_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="822" column="16" selection-start-line="822" selection-start-column="16" selection-end-line="822" selection-end-column="16" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_for_disposal_6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_send_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-            <marker date="1607062043500" expanded="true" signature="2287:2292" ph="..." />
-            <marker date="1607062043500" expanded="true" signature="3331:3336" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-          <folding>
-            <element signature="e#23#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,13 +844,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddddd.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddddd.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/data/random_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="255" column="6" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="6" />
+          <folding>
+            <element signature="e#30#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaseSystemAuto/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/python3.85/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/ui/base_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="836" column="18" selection-start-line="836" selection-start-column="18" selection-end-line="836" selection-end-column="18" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/report/assert_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po/case_operate/case_operate_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <marker date="1608002201198" expanded="true" signature="129:161" ph="..." />
+            <marker date="1608002201198" expanded="true" signature="526:605" ph="..." />
+            <marker date="1608002201198" expanded="true" signature="2044:2045" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="70" column="3" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_send_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="158" column="21" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+            <marker date="1609400774792" expanded="true" signature="2286:2291" ph="..." />
+            <marker date="1609400774792" expanded="true" signature="3330:3335" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_acceptance_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_placed_on_file_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="146" column="43" selection-start-line="146" selection-start-column="43" selection-end-line="146" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_for_disposal_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_verify_pass_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po/login/user_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po/login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/data/time_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_case_reported_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <marker date="1609751202453" expanded="true" signature="3969:3974" ph="..." />
+            <marker date="1609751202453" expanded="true" signature="4872:4877" ph="..." />
+            <marker date="1609751202453" expanded="true" signature="5297:5302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/demo/xiangxia_paidan/test_demo_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1121">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>

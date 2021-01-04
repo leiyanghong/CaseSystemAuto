@@ -261,3 +261,5 @@ def random_gbk_chines():
     str = bytes.fromhex(val).decode('gb2312')
     return str
 
+if __name__ == '__main__':
+    random_tell()

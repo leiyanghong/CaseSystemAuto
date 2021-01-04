@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "f0a9603375d749ec9567ebad0169ddc6",
-    "name" : "test_case.demo",
+    "uid" : "f2b71ed535cdcacac52e33f3c4cf62f8",
+    "name" : "test_case.demo.xiangxia_paidan",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   } ]
 }

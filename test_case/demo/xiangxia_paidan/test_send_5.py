@@ -2,7 +2,6 @@
 from time import sleep
 import pytest
 from tools.report import log_tool
-
 from config.config import FILE_PATH
 from po.case_operate.case_operate_page import case_operate, contains_text_click, case_flow_pop_up_operation, \
     case_flow_pop_up_operation1, application_for_extension

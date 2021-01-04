@@ -2,40 +2,56 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test_case.demo",
+    "name" : "test_case.demo.xiangxia_paidan",
     "children" : [ {
-      "name" : "test_demo_7",
+      "name" : "test_acceptance_3",
       "children" : [ {
         "name" : "test_CaseReport",
-        "uid" : "5dcad5de78a49d86",
-        "parentUid" : "aeed3ba8f55f9fa557a58c664a0c5eae",
+        "uid" : "13a2932d33430507",
+        "parentUid" : "af35643c566f21a1b71f902f77e27af5",
         "status" : "passed",
         "time" : {
-          "start" : 1607325848370,
-          "stop" : 1607325892914,
-          "duration" : 44544
+          "start" : 1609401967659,
+          "stop" : 1609402027560,
+          "duration" : 59901
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "aeed3ba8f55f9fa557a58c664a0c5eae"
+      "uid" : "af35643c566f21a1b71f902f77e27af5"
     }, {
-      "name" : "test_for_disposal_6",
+      "name" : "test_verify_pass_2",
       "children" : [ {
         "name" : "test_CaseReport",
-        "uid" : "ef32027e21b6cd9b",
-        "parentUid" : "d9d4b6c9cb9f2484a4098e8b46dd0375",
-        "status" : "passed",
+        "uid" : "ee40dcc79a888a8",
+        "parentUid" : "4d38803d3edee6effd57d1f51511588f",
+        "status" : "broken",
         "time" : {
-          "start" : 1607326189405,
-          "stop" : 1607326235058,
-          "duration" : 45653
+          "start" : 1609402147143,
+          "stop" : 1609402159622,
+          "duration" : 12479
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d9d4b6c9cb9f2484a4098e8b46dd0375"
+      "uid" : "4d38803d3edee6effd57d1f51511588f"
+    }, {
+      "name" : "test_case_reported_1",
+      "children" : [ {
+        "name" : "test_CaseReport",
+        "uid" : "c1b98e0918f1404c",
+        "parentUid" : "48c1e1cbc713bc939421e81d5790f82d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609407932098,
+          "stop" : 1609407993155,
+          "duration" : 61057
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48c1e1cbc713bc939421e81d5790f82d"
     } ],
-    "uid" : "test_case.demo"
+    "uid" : "test_case.demo.xiangxia_paidan"
   } ]
 }

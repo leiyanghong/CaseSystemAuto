@@ -36,18 +36,15 @@ def test_CaseReport(driver):
     contains_text_click("span", "案件立案", "1")
     driver.wait_util_text("(//span[contains(text(),'待立案')])[1]", "待立案")
     contains_text_click("span", "待立案", "1")
-    try:
-        if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
-            # 案件操作：受理案件
-            case_operate(case_acceptance="立案")
-            contains_text_click("span", "立案", "last()")
-            contains_text_click("span", "确 定", "last()")
-            driver.wait_util_text("(//p[contains(text(),'立案成功！')])[1]", "立案成功！")
-        else:
-            driver.wait_util_text("(//span[contains(text(),'更多操作')])[1] ", "更多操作")
-    except Exception as e:
-        print("没有可立案的案件，请受理后再立案")
-        raise e
+    if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
+        # 案件操作：受理案件
+        case_operate(case_acceptance="立案")
+        driver.wait_util_text("((//span[contains(text(),'案件编号')])/../following-sibling::div/button)[2]/span", "立案")
+        driver.click("((//span[contains(text(),'案件编号')])/../following-sibling::div/button)[2]/span")
+        contains_text_click("span", "确 定", "last()")
+        driver.wait_util_text("(//p[contains(text(),'保存成功！')])[1]", "保存成功！")
+    else:
+        driver.wait_util_text("(//span[contains(text(),'更多操作')])[1] ", "更多操作")
     # 进入待派遣页面-指派处置人
     contains_text_click("span", "案件派遣", "1")
     driver.wait_util_text("(//span[contains(text(),'待派遣')])[1]", "待派遣")
@@ -75,23 +72,22 @@ def test_CaseReport(driver):
     driver.wait_util_text("(//span[contains(text(),'处置列表')])[1]", "处置列表")
     contains_text_click("span", "处置列表", "1")
     # 处置
-    try:
-        if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
-            # 点击处置
-            case_operate(case_acceptance="处置")
-            # 上传案件现场照片
-            driver.file_upload("(//div[contains(text(),'案件现场')])[1]/following-sibling::div/div/div/div/i", FILE_PATH)
-            sleep(1)
-            # 上传处置结果
-            driver.file_upload("(//div[contains(text(),'处置结果')])[1]/following-sibling::div/div/div/div/i", FILE_PATH)
-            # 完成处置
-            driver.click(
-                "//button[@class='el-button el-tooltip case-el-btn el-button--primary el-button--small']/span[contains(text(),'完成处置')]")
-        else:
+    if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
+        # 点击处置
+        case_operate(case_acceptance="处置")
+        # 上传案件现场照片
+        driver.file_upload("(//div[contains(text(),'案件现场')])[1]/following-sibling::div/div/div/div/i", FILE_PATH)
+        sleep(1)
+        # 上传处置结果
+        driver.file_upload("(//div[contains(text(),'处置结果')])[1]/following-sibling::div/div/div/div/i", FILE_PATH)
+        sleep(1)
+        # 完成处置
+        # driver.click("//button[@class='el-button el-tooltip case-el-btn el-button--primary el-button--small']/span[contains(text(),'完成处置')]")
+        driver.click("//span[contains(text(),'完成处置')]")
+        # 处置成功
+        driver.wait_util_text("//p[contains(text(),'处置成功')]", "处置成功")
+    else:
             driver.wait_util_text("(//span[contains(text(),'更多操作')])[1] ", "更多操作")
-    except Exception as e:
-        print("没有可处置的案件，请重新派遣")
-        raise e
 
     # 登录街道管理员账号-案件核查
     user_login("jdadmin", "123456")
@@ -113,19 +109,25 @@ def test_CaseReport(driver):
 
     # 登录部门管理员审核
     user_login("leiyanghong", "123456")
+    sleep(1)
     # 进入我的案件-核查列表-处置
-    contains_text_click("span", "我的案件", "1")
+    driver.wait_util_text('//*[@id="app"]/section/div/div[2]/div/ul/li[2]/div/span', "我的案件")
+    # contains_text_click("span", "我的案件", "1")
+    driver.click('//*[@id="app"]/section/div/div[2]/div/ul/li[2]/div/span')
     driver.wait_util_text("(//span[contains(text(),'核查列表')])[1]", "核查列表")
     contains_text_click("span", "核查列表", "1")
     # 点击更多操作
-    case_operate(case_acceptance="审核")
-    driver.wait_util_text("(//span[contains(text(),'审核通过')])[1]", "审核通过")
-    contains_text_click("span", "审核通过", "1")
-    # 上传案件现场照片
-    driver.file_upload("//div[contains(text(),'核查图片')]/following-sibling::div/div/div/button", FILE_PATH)
-    sleep(1)
-    contains_text_click("span", "确定", "last()")
-    driver.wait_util_text("(//p[contains(text(),'审核已通过')])[1]", "审核已通过")
+    if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
+        case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
+        print("案件编号为:", case_number)
+        case_operate(case_acceptance="审核")
+        driver.wait_util_text("(//span[contains(text(),'审核通过')])[1]", "审核通过")
+        contains_text_click("span", "审核通过", "1")
+        # 上传案件现场照片
+        driver.file_upload("//div[contains(text(),'核查图片')]/following-sibling::div/div/div/button", FILE_PATH)
+        sleep(1)
+        contains_text_click("span", "确定", "last()")
+        driver.wait_util_text("(//p[contains(text(),'审核已通过')])[1]", "审核已通过")
 
     # 登录街道管理员结案
     user_login("jdadmin", "123456")
@@ -134,7 +136,6 @@ def test_CaseReport(driver):
     contains_text_click("span", "案件结案", "1")
     driver.wait_util_text("(//span[contains(text(),'待结案')])[1]", "待结案")
     contains_text_click("span", "待结案", "1")
-    case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
     # 点击更多操作
     case_operate(case_acceptance="结案")
     driver.wait_util_text("(//span[contains(text(),'结案')])[last()]", "结案")
@@ -143,11 +144,12 @@ def test_CaseReport(driver):
     contains_text_click("span", "确定", '1')
     # 进入案件结案-已结案
     driver.wait_util_text("(//span[contains(text(),'已结案')])[1]", "已结案")
-    contains_text_click("span", "已结案", "1")
-    print("进入已结案页面")
+    driver.click("(//span[contains(text(),'已结案')])[1]")
+    driver.click('//*[@id="app"]/section/div/div[2]/div/ul/li[1]/ul/li[5]/ul/li[2]/span')
     # 获取案件编号列表
     case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
-    print(f"获取案件编号:{case_number_list}")
+    print(f"获取已结案的案件编号列表:{case_number_list}")
     # 断言 是否结案成功
     assert True == assert_xpath_text(case_number_list, case_number)
-    print("断言成功")
+
+

@@ -1,0 +1,10 @@
+INFO     tools.report.log_tool:log_tool.py:34 -------测试开始，启动chrome浏览器成功-------
+INFO     tools.report.log_tool:log_tool.py:34 打开网址： http://172.16.25.52/web/#/login 
+INFO     tools.report.log_tool:log_tool.py:34 定位元素 //label[contains(text(),'账号')]/../div/div/input 
+INFO     tools.report.log_tool:log_tool.py:34 <selenium.webdriver.remote.webelement.WebElement (session="bf28b848f05469224d8b88553844667f", element="2b7719a3-0019-42dc-bebe-dc1fe09dca03")> 中输入： jdadmin 
+INFO     tools.report.log_tool:log_tool.py:34 定位元素 //label[contains(text(),'密码')]/../div/div/input 
+INFO     tools.report.log_tool:log_tool.py:34 <selenium.webdriver.remote.webelement.WebElement (session="bf28b848f05469224d8b88553844667f", element="85801f06-9dc0-4c01-a98d-353665b80a32")> 中输入： 1234567 
+INFO     tools.report.log_tool:log_tool.py:34 定位元素 //button/span 
+INFO     tools.report.log_tool:log_tool.py:34 点击元素： <selenium.webdriver.remote.webelement.WebElement (session="bf28b848f05469224d8b88553844667f", element="4e505907-36d2-4c20-95a5-55b39da48428")> 
+INFO     tools.report.log_tool:log_tool.py:34 定位元素 //span[contains(text(),'案件上报')] 
+ERROR    tools.report.log_tool:log_tool.py:46 //span[contains(text(),'案件上报')]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式

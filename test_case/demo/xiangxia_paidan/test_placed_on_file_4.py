@@ -73,11 +73,11 @@ def test_tuidan(driver):
 
 
 '''
-案件上报-受理-案件立案-派遣(向下派遣)-管控(收回重派)-再派遣(申请退单)
+案件上报-受理-案件立案-派遣(向下派遣)-管控(收回重派)-再派遣(向上派遣)
 '''
 
 
-def test_shenqingtuidan(driver):
+def test_zaipaiqian_xiangshangpaiqian(driver):
     # 登录-街道管理员PC端案件上报
     user_login("jdadmin", "123456")
     # 案件上报
@@ -97,9 +97,6 @@ def test_shenqingtuidan(driver):
     driver.wait_util_text("(//span[contains(text(),'待派遣')])[1]", "待派遣")
     contains_text_click("span", "待派遣", "1")
     if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
-        global case_number
-        # 获取案件编号
-        case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
         # 向下派遣
         case_operate(case_acceptance="向下派遣")
         # 弹框搜索选择向下派遣
@@ -115,10 +112,10 @@ def test_shenqingtuidan(driver):
     contains_text_click("span", "管控", "1")
     # 获取管控页面的所有案件编号
     case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
-    if assert_xpath_text(case_number_list, case_number):
-        global case_number1
+    if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
+        global case_number
         # 获取管控模块的案件编号
-        case_number1 = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
+        case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
         # 管控-收回重派
         case_operate(case_acceptance="收回重派")
         contains_text_click("span", "确 定", "last()")
@@ -129,9 +126,9 @@ def test_shenqingtuidan(driver):
     # 进入再派遣页面
     driver.wait_util_text("(//span[contains(text(),'再派遣')])", "再派遣")
     driver.click("(//span[contains(text(),'再派遣')])")
-    case_number_list1 = driver.get_texts("//span[contains(text(),'案件编号')]/span")
+    case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
     # 断言 收回的案件编号是否成功流转至再派遣页面
-    assert True == assert_xpath_text(case_number_list1, case_number1)
+    assert True == assert_xpath_text(case_number_list, case_number)
     # 向上派遣
     if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
         case_operate(case_acceptance="向上派遣")
@@ -144,13 +141,13 @@ def test_shenqingtuidan(driver):
     # 登录区级管理员账号
     user_login("qjadmin", "123456")
     driver.wait_util_text("(//span[contains(text(),'案件派遣')])", "案件派遣")
-    # 进入待派遣页面-向下派遣
+    # 进入待派遣页面-验证是否流转至再派遣页面
     contains_text_click("span", "案件派遣", "1")
     driver.wait_util_text("(//span[contains(text(),'待派遣')])[1]", "待派遣")
-    contains_text_click("span", "待派遣", "1")
+    contains_text_click("span", "再派遣", "1")
     if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
-        case_number_list1 = driver.get_texts("//span[contains(text(),'案件编号')]/span")
+        case_number_list2 = driver.get_texts("//span[contains(text(),'案件编号')]/span")
         # 断言 验证案件编号是否成功流转至待派遣页面
-        assert True == assert_xpath_text(case_number_list1, case_number1)
+        assert True == assert_xpath_text(case_number_list2, case_number)
     else:
         driver.wait_util_text("(//span[contains(text(),'更多操作')])[1] ", "更多操作")

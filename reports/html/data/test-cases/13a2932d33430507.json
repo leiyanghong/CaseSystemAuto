@@ -1,69 +1,69 @@
 {
-  "uid" : "5dcad5de78a49d86",
+  "uid" : "13a2932d33430507",
   "name" : "test_CaseReport",
-  "fullName" : "test_case.demo.test_demo_7#test_CaseReport",
-  "historyId" : "30827ccc1b1ef535a51de55dd0a67ce2",
+  "fullName" : "test_case.demo.xiangxia_paidan.test_acceptance_3#test_CaseReport",
+  "historyId" : "560953e7e837bea417c55423cf653da4",
   "time" : {
-    "start" : 1607325848370,
-    "stop" : 1607325892914,
-    "duration" : 44544
+    "start" : 1609401967659,
+    "stop" : 1609402027560,
+    "duration" : 59901
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1607325842984,
-      "stop" : 1607325848367,
-      "duration" : 5383
+      "start" : 1609401962124,
+      "stop" : 1609401967658,
+      "duration" : 5534
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2ee3cf3864b528d9",
+      "uid" : "11c08389df1a8f1d",
       "name" : "log",
-      "source" : "2ee3cf3864b528d9.txt",
+      "source" : "11c08389df1a8f1d.txt",
       "type" : "text/plain",
-      "size" : 16775
+      "size" : 16206
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1607325892915,
-      "stop" : 1607325895226,
-      "duration" : 2311
+      "start" : 1609402027561,
+      "stop" : 1609402029851,
+      "duration" : 2290
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
-    "value" : "test_case.demo"
+    "value" : "test_case.demo.xiangxia_paidan"
   }, {
     "name" : "suite",
-    "value" : "test_demo_7"
+    "value" : "test_acceptance_3"
   }, {
     "name" : "subSuite"
   }, {
@@ -71,7 +71,7 @@
     "value" : "WIN10-20201020H"
   }, {
     "name" : "thread",
-    "value" : "18000-MainThread"
+    "value" : "3324-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -80,7 +80,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_case.demo.test_demo_7"
+    "value" : "test_case.demo.xiangxia_paidan.test_acceptance_3"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5dcad5de78a49d86.json",
+  "source" : "13a2932d33430507.json",
   "parameterValues" : [ ]
 }

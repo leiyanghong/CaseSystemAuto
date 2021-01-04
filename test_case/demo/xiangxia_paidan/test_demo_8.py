@@ -19,6 +19,8 @@ def test_zhipaichuzhiren(driver):
     user_login("jdadmin", "123456")
     # 案件上报
     case_reported(f"案件描述{random_tool.random_str_abc(10)}", random_tool.random_addr())
+    # 获取案件编号
+    case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
     # 受理
     if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
         # 案件操作：受理案件
@@ -34,9 +36,6 @@ def test_zhipaichuzhiren(driver):
     driver.wait_util_text("(//span[contains(text(),'待派遣')])[1]", "待派遣")
     contains_text_click("span", "待派遣", "1")
     if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
-        global case_number
-        # 获取案件编号
-        case_number = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
         # 向下派遣
         case_operate(case_acceptance="向下派遣")
         # 弹框搜索选择向下派遣
@@ -50,12 +49,7 @@ def test_zhipaichuzhiren(driver):
     # 进入待派遣页面-向下派遣
     driver.wait_util_text("(//span[contains(text(),'管控')])[1]", "管控")
     contains_text_click("span", "管控", "1")
-    # 获取管控页面的所有案件编号
-    case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
-    if assert_xpath_text(case_number_list, case_number):
-        global case_number1
-        # 获取管控模块的案件编号
-        case_number1 = driver.get_text("(//span[contains(text(),'案件编号')])[2]/span")
+    if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
         # 管控-收回重派
         case_operate(case_acceptance="收回重派")
         contains_text_click("span", "确 定", "last()")
@@ -66,9 +60,6 @@ def test_zhipaichuzhiren(driver):
     # 进入再派遣页面
     driver.wait_util_text("(//span[contains(text(),'再派遣')])", "再派遣")
     driver.click("(//span[contains(text(),'再派遣')])")
-    case_number_list1 = driver.get_texts("//span[contains(text(),'案件编号')]/span")
-    # 断言 收回的案件编号是否成功流转至再派遣页面
-    assert True == assert_xpath_text(case_number_list1, case_number1)
     # 指派处置人
     if driver.is_element_exist("(//span[contains(text(),'更多操作')])[1] "):
         # 指派处置人
@@ -79,7 +70,10 @@ def test_zhipaichuzhiren(driver):
         driver.wait_util_text("//p[contains(text(),'指派成功!')]", "指派成功!")
     else:
         driver.wait_util_text("(//span[contains(text(),'更多操作')])[1] ", "更多操作")
-
+    user_login("leiyanghong",'123456')
+    case_number_list = driver.get_texts("//span[contains(text(),'案件编号')]/span")
+    # 断言 再派遣>指派处置人
+    assert True == assert_xpath_text(case_number_list, case_number)
 
 '''
 案件上报-受理-案件立案-派遣(向下派遣)-管控(收回重派)-再派遣(向下派遣)
@@ -234,4 +228,5 @@ def test_xiangshangpaiqian(driver):
         assert True == assert_xpath_text(case_number_list1, case_number1)
     else:
         driver.wait_util_text("(//span[contains(text(),'更多操作')])[1] ", "更多操作")
+
 

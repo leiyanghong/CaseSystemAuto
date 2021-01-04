@@ -1,5 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: //span[contains(text(),'案件上报')]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式",
+      "children" : [ {
+        "name" : "test_CaseReport",
+        "uid" : "ee40dcc79a888a8",
+        "parentUid" : "8ba16dbf81add3afb65a7290f6a5f319",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609402147143,
+          "stop" : 1609402159622,
+          "duration" : 12479
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ba16dbf81add3afb65a7290f6a5f319"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_CaseReport",
+        "uid" : "c1b98e0918f1404c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609407932098,
+          "stop" : 1609407993155,
+          "duration" : 61057
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

@@ -1,0 +1,3 @@
+INFO     tools.report.log_tool:log_tool.py:34 -------测试开始，启动chrome浏览器成功-------
+INFO     tools.report.log_tool:log_tool.py:34 打开网址： http://172.16.25.52/web/#/login 
+INFO     tools.report.log_tool:log_tool.py:34 定位元素 //label[contains(text(),'账号')]/../div/div/input

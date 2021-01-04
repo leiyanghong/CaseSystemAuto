@@ -3,27 +3,39 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_CaseReport",
-    "uid" : "5dcad5de78a49d86",
+    "uid" : "13a2932d33430507",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1607325848370,
-      "stop" : 1607325892914,
-      "duration" : 44544
+      "start" : 1609401967659,
+      "stop" : 1609402027560,
+      "duration" : 59901
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_CaseReport",
-    "uid" : "ef32027e21b6cd9b",
+    "uid" : "ee40dcc79a888a8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1607326189405,
-      "stop" : 1607326235058,
-      "duration" : 45653
+      "start" : 1609402147143,
+      "stop" : 1609402159622,
+      "duration" : 12479
     },
     "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_CaseReport",
+    "uid" : "c1b98e0918f1404c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1609407932098,
+      "stop" : 1609407993155,
+      "duration" : 61057
+    },
+    "flaky" : true,
     "parameters" : [ ]
   } ]
 }

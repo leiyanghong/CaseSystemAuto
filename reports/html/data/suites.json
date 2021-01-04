@@ -2,46 +2,65 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "test_case.demo",
+    "name" : "test_case.demo.xiangxia_paidan",
     "children" : [ {
-      "name" : "test_demo_7",
+      "name" : "test_acceptance_3",
       "children" : [ {
         "children" : [ {
           "name" : "test_CaseReport",
-          "uid" : "5dcad5de78a49d86",
-          "parentUid" : "f343d5cbbb383fb638a0535223d29494",
+          "uid" : "13a2932d33430507",
+          "parentUid" : "6662aaf1f0cb1d162cf1e6674f2829fc",
           "status" : "passed",
           "time" : {
-            "start" : 1607325848370,
-            "stop" : 1607325892914,
-            "duration" : 44544
+            "start" : 1609401967659,
+            "stop" : 1609402027560,
+            "duration" : 59901
           },
           "flaky" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "f343d5cbbb383fb638a0535223d29494"
+        "uid" : "6662aaf1f0cb1d162cf1e6674f2829fc"
       } ],
-      "uid" : "ee952d3f37b4f3dbda7b830af705a9cc"
+      "uid" : "331dba21dc974cb6e9b5013fb7676a46"
     }, {
-      "name" : "test_for_disposal_6",
+      "name" : "test_verify_pass_2",
       "children" : [ {
         "children" : [ {
           "name" : "test_CaseReport",
-          "uid" : "ef32027e21b6cd9b",
-          "parentUid" : "6251f0ccf1b7f04591470e96a4cbd5b4",
-          "status" : "passed",
+          "uid" : "ee40dcc79a888a8",
+          "parentUid" : "cf4b70bba352f8f416467896d3d505b9",
+          "status" : "broken",
           "time" : {
-            "start" : 1607326189405,
-            "stop" : 1607326235058,
-            "duration" : 45653
+            "start" : 1609402147143,
+            "stop" : 1609402159622,
+            "duration" : 12479
           },
           "flaky" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "6251f0ccf1b7f04591470e96a4cbd5b4"
+        "uid" : "cf4b70bba352f8f416467896d3d505b9"
       } ],
-      "uid" : "b8707524e413f84001441cec09e19ec8"
+      "uid" : "9e3f240b752da91530017d6ee9c8b887"
+    }, {
+      "name" : "test_case_reported_1",
+      "children" : [ {
+        "children" : [ {
+          "name" : "test_CaseReport",
+          "uid" : "c1b98e0918f1404c",
+          "parentUid" : "1d97e31feeba1383d5267919d0bf0376",
+          "status" : "broken",
+          "time" : {
+            "start" : 1609407932098,
+            "stop" : 1609407993155,
+            "duration" : 61057
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1d97e31feeba1383d5267919d0bf0376"
+      } ],
+      "uid" : "8d26475a865357549a2da7e54cfa6a20"
     } ],
-    "uid" : "f0a9603375d749ec9567ebad0169ddc6"
+    "uid" : "f2b71ed535cdcacac52e33f3c4cf62f8"
   } ]
 }
