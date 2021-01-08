@@ -1,3 +1,0 @@
-2020-12-14 17:58:58,152 - tools.report.log_tool - ERROR - ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[1]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
-2020-12-15 10:45:55,729 - tools.report.log_tool - ERROR - ((//ul[@class="el-select-group"])[last()]/li/span)[2]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
-2020-12-15 13:53:40,346 - tools.report.log_tool - ERROR - ((//ul[@class="el-scrollbar__view el-select-dropdown__list"])[last()]/li/span)[2]定位元素超时，请检查定为语句是否正确，或者尝试其他定位方式
